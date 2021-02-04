@@ -16,7 +16,6 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<script src="<?php echo esc_url( get_template_directory_uri() . '/js/name.js' ); ?>"></script>
 	<!-- START PLAUSIBLE ANALYTICS -->
 	<script async defer data-domain="kevq.uk" src="https://stats.kevq.uk/js/index.js"></script>
 	<!-- END PLAUSIBLE ANALYTICS -->

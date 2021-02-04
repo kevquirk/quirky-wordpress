@@ -177,10 +177,9 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 .site-avatar {
-  height: 50px;
+  border: none;
+  height: 8rem;
   width: auto;
-  vertical-align: middle;
-  border-radius: none;
 }
 
 /* Grouping content
@@ -292,8 +291,8 @@ img {
 }
 
 .wp-block-image img {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 8px;
+  border-radius: 5px;
+  border: 2px solid var(--border);
 }
 
 .wp-block-image figcaption, figcaption {
