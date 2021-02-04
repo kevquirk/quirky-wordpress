@@ -1363,6 +1363,71 @@ p.has-background {
   margin: 2em 0;
 }
 
+/****** Format the notice boxes ******/
+
+.notice,
+.notice-blue {
+  border-radius: 5px;
+  border: 2px solid var(--dark-blue);
+  background: var(--light-blue);
+  color: var(--dark-blue);
+  padding: 1rem 2rem;
+}
+
+.notice a,
+.notice-blue a {
+  color: var(--dark-blue);
+  text-decoration: underline;
+}
+
+.notice a:hover,
+.notice-blue a:hover {
+  text-decoration: none;
+}
+
+.notice-red {
+  border-radius: 5px;
+  border: 2px solid var(--dark-red);
+  background: var(--light-red);
+  color: var(--dark-red);
+  padding: 1rem 2rem;
+}
+
+.notice-red a {
+  color: var(--dark-red);
+  text-decoration: underline;
+}
+
+.notice-red a:hover {
+  text-decoration: none;
+}
+
+/* Format notices in dark mode */
+@media (prefers-color-scheme: dark) {
+  .notice,
+  .notice-blue {
+    background: var(--accent);
+    color: var(--bg);
+    border-color: var(--accent);
+  }
+
+  .notice a,
+  .notice-blue a {
+    color: var(--bg);
+    text-decoration-color: var(--bg);
+  }
+
+  .notice-red {
+    background: var(--dark-red);
+    color: white;
+  }
+
+  .notice-red a {
+    color: white;
+    text-decoration-color: white;
+  }
+}
+
 /** Blue colours **/
 .has-blue-background-color {
 	background-color: var(--accent) !important;
