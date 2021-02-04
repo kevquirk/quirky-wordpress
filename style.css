@@ -504,7 +504,7 @@ input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: var(--input);
+  background: var(--input-bg);
 }
 
 .visuallyhidden {
