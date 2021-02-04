@@ -67,15 +67,18 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     --meta: #585858;
     --border: lightgrey;
     --code: #D81B60;
-    --green: #345F41;
-    --orange: #FFA800;
-    --red: #971717;
-    --grey: #333;
+    --pre: #D0D0D0;
     --input-bg: white;
     --wysiwyg: #D9D9D9;
     --admin-reply: #D9D9D9;
     --header: #212121;
     --header-text: #fafafa;
+
+    /* Notice colours */
+    --dark-blue: #0D47A1;
+    --light-blue: #E3F2FD;
+    --dark-red: #B71C1C;
+    --light-red: #FFEBEE;
  }
 
  /* Page layout */
@@ -198,22 +201,21 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-pre {
-	font-family: var(--mono-font);
-	font-size: 1em;
-  background: var(--code) !important;
-	color: var(--code-text) !important;
-	border-radius: 4px;
-	margin-bottom: 1.6em;
-	max-width: 100%;
-	overflow: auto;
-	padding: 1.6em;
-	max-height: 650px;
-}
+ pre {
+ 	font-family: var(--mono-font);
+ 	font-size: 1.15rem;
+   background: black !important;
+ 	border-radius: 5px;
+ 	margin-bottom: 1.6em;
+ 	max-width: 100%;
+ 	overflow: auto;
+ 	padding: 1.6em;
+ 	max-height: 650px;
+ }
 
-pre code {
-  padding: 0;
-}
+ pre code {
+   color: #ccc;
+ }
 
 .select-all {
 		user-select: all;
@@ -256,8 +258,7 @@ kbd,
 samp,
 tt,
 var {
-	font-family: var(--mono-font);
-	font-size: 1em;
+	color: var(--code);
 }
 
 /**
