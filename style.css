@@ -80,9 +80,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
  /* Page layout */
 
- header {
-   background: var(--header);
- }
+
 
  .head-banner {
    margin: 0 6vw;
