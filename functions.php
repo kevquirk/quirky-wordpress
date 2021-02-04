@@ -176,10 +176,10 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
-// Remove notes (-51) & newsletter (-2221) categories from homepage
+// Remove notes (-51) category from homepage
 function exclude_category_home( $query ) {
 if ( $query->is_home ) {
-$query->set( 'cat', '-51, -2221' );
+$query->set( 'cat', '-51' );
 }
 return $query;
 }
