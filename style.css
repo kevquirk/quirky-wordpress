@@ -1261,7 +1261,8 @@ h1.site-logo a:hover {
 
 /* Alignments
 --------------------------------------------- */
-.alignleft {
+.alignleft,
+.nav-previous {
 
 	/*rtl:ignore*/
 	float: left;
@@ -1271,7 +1272,8 @@ h1.site-logo a:hover {
 	margin-bottom: 1.5em;
 }
 
-.alignright {
+.alignright,
+.nav-next {
 
 	/*rtl:ignore*/
 	float: right;
