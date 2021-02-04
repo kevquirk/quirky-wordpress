@@ -1,2 +1,2 @@
-# quirky-wordpress
-Quirk WordPress theme that I use on kevq.uk
+# quirky-guestbook
+WordPress theme for my Guestbook
