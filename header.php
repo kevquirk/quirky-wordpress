@@ -16,9 +16,9 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<!-- START PLAUSIBLE ANALYTICS -->
+	<!-- Plausible analytics -->
 	<script async defer data-domain="kevq.uk" src="https://stats.kevq.uk/js/index.js"></script>
-	<!-- END PLAUSIBLE ANALYTICS -->
+	<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 
 	<?php wp_head(); ?>
 </head>

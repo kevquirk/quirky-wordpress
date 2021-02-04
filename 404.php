@@ -9,6 +9,8 @@
 
 get_header();
 ?>
+<!-- Allows me to see how many 404 people are getting and what the source was - uses Plausible and is privacy respecting -->
+<script>plausible("404",{ props: { path: document.location.pathname } });</script>
 
 	<main id="primary" class="site-main">
 
