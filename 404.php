@@ -14,10 +14,11 @@ get_header();
 
 		<section class="error-404 not-found">
 			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'nineteen-quirky' ); ?></h1>
+				<h1 class="page-title"><?php esc_html_e( '🙊 Oops!', 'nineteen-quirky' ); ?></h1>
 			</header><!-- .page-header -->
 
 			<div class="page-content">
+				<h2>404: The page you requested can’t be found.</h2>
 				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'nineteen-quirky' ); ?></p>
 
 					<?php
@@ -42,14 +43,6 @@ get_header();
 							?>
 						</ul>
 					</div><!-- .widget -->
-
-					<?php
-					/* translators: %1$s: smiley */
-					$nineteen_quirky_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'nineteen-quirky' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$nineteen_quirky_archive_content" );
-
-					the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
 
 			</div><!-- .page-content -->
 		</section><!-- .error-404 -->
