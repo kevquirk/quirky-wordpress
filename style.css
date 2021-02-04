@@ -1681,6 +1681,10 @@ i.gb-moderator {
   background: var(--wysiwyg) !important;
 }
 
+.gwolle_gb_submit {
+  padding: .1rem .75rem !important;
+}
+
 label,
 input,
 textarea {
