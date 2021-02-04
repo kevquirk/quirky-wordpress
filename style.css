@@ -575,7 +575,7 @@ h1.site-title {
 
 .site-title a,
 .site-title a:visited,
-.entry-footer {
+.entry-meta {
     color: var(--text);
     text-decoration: none;
     background: none;
