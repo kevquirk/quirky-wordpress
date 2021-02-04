@@ -203,7 +203,6 @@ hr {
  */
  pre {
  	font-family: var(--mono-font);
-  font-size: 1.25rem;
   background: black !important;
  	border-radius: 5px;
  	margin-bottom: 1.6em;
@@ -253,13 +252,6 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-code,
-kbd,
-samp,
-tt,
-var {
-	color: var(--code);
-}
 
 /**
  * Add the correct font size in all browsers.
@@ -678,7 +670,6 @@ kbd,
 tt,
 var {
   color: var(--code);
-  font-size: 1.25rem;
 }
 
 abbr,
