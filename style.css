@@ -707,7 +707,7 @@ i {
 }
 
 blockquote {
-  margin: 2rem 0;
+  margin: 2rem 0 2rem 1rem;
 	padding: .4rem .8rem;
 	border-left: .35rem solid var(--accent);
 	color: var(--meta);
