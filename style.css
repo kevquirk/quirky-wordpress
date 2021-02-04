@@ -677,7 +677,7 @@ code,
 kbd,
 tt,
 var {
-  color: var(--code-text);
+  color: var(--code);
 }
 
 abbr,
