@@ -982,8 +982,12 @@ textarea {
 nav {
   text-align: center;
   font-size: 1rem;
-  margin-left: 3rem;
+  margin-left: 2rem;
   padding-top: 1.25rem;
+}
+
+nav li {
+  display: inline;
 }
 
 nav a,
