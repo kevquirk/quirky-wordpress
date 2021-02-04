@@ -1068,7 +1068,7 @@ h1.site-logo a:hover {
 .entry-footer a,
 .entry-footer a:visited {
     padding: 0 .5rem 0 0;
-    background: none;
+    text-decoration: none;
     color: var(--meta);
     transition: .4s;
     font-size: .9rem;
