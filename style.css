@@ -100,7 +100,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  #page { /* Default content div */
  	background: var(--bg);
   margin: 0 auto;
-	max-width: 46rem;
+	max-width: 45rem;
 	padding: 0 .5rem;
  }
 
