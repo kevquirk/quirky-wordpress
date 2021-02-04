@@ -18,7 +18,7 @@ get_header();
 			</header><!-- .page-header -->
 
 			<div class="page-content">
-				<h2>404: The page you requested can’t be found.</h2>
+				<h2>The page you requested can’t be found.</h2>
 				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'nineteen-quirky' ); ?></p>
 
 					<?php
