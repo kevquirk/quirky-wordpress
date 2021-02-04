@@ -577,20 +577,10 @@ h1.site-title {
   color: var(--accent);
 }
 
-span.logo_dot {
-    background-color: var(--accent);
-    font-size: 1.5em;
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin: 0 2px;
-}
-
 h2.entry-title {
   font-size: 1.5rem;
   font-weight: bold;
-  transition: all .4s ease-in-out;
+  margin-bottom: 1rem;
 }
 
 h1.entry-title {
@@ -599,19 +589,6 @@ h1.entry-title {
 
 .guestbook-notice h2 {
     margin-top: 0;
-}
-
-.entry-title a,
-.entry-title a:visited {
-  background: none;
-  color: var(--text);
-  transition: .4s;
-  padding: 0;
-}
-
-.entry-title a:hover {
-  opacity: .6;
-  color: var(--text);
 }
 
 h1, h2, h3, h4, h5, h6 {
