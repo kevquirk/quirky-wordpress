@@ -29,7 +29,7 @@ get_header();
 			?>
 
 			<!-- Add newsletter to the bottom of all posts. -->
-			<div class="post-newsletter">
+			<div class="subscribe-form">
 				<h2>📰 Cool people get newsletters!</h2>
 
 			  <p>Do you want all your friends to look up to you and think “I wanna be like them!” If so, you need my newsletter! To find out more <a href="/newsletter">click here</a>.</p>
