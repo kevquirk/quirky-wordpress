@@ -779,7 +779,8 @@ article a,
 p.feature-credit a,
 p.feature-credit a:visited,
 .menu-items a,
-.response a {
+.response a,
+nav.navigation.posts-navigation a {
   color: var(--accent);
   text-decoration-thickness: .15rem;
   text-decoration-color: var(--underline);
