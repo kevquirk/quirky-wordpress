@@ -587,12 +587,10 @@ span.logo_dot {
     margin: 0 2px;
 }
 
-.entry-title {
-  background: var(--bg);
-}
-
 h2.entry-title {
-  margin-bottom: .1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: all .4s ease-in-out;
 }
 
 h1.entry-title {
