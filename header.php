@@ -30,16 +30,17 @@
 <header id="masthead">
 	<div class="head-banner">
 		<h1 class="site-logo"><a href="https://kevq.uk">🚀kq</a></h1>
-		<nav>
-			<a href="https://kevq.uk/about/" >About</a>
-			<a href="https://kevq.uk/contact/" >Contact</a>
-			<a href="https://kevq.uk/blog/" >Blog</a>
-			<a href="https://kevq.uk/notes/" >Notes</a>
-			<a class="current hide-mobile" href="https://guestbook.kevq.uk" >Guestbook</a>
-			<a class="hide-mobile" href="https://kevq.uk/newsletter/" >Newsletter</a>
-			<a class="hide-mobile" href="https://kevq.uk/blogroll/" >Blogroll</a>
-			<a class="hide-mobile" href="https://kevq.uk/search/" >Search</a>
-		</nav><!-- #site-navigation -->
+		<div class="nav">
+			<nav id="site-navigation" class="main-navigation">
+				<?php
+				wp_nav_menu(
+					array(
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu',
+					)
+				);
+				?>
+			</nav><!-- #site-navigation -->
 </div>
 </header><!-- #masthead -->
 
