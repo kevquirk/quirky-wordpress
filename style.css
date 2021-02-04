@@ -614,8 +614,6 @@ optgroup,
 textarea {
 	color: var(--text);
 	font-family: var(--sans-font);
-  font-size: 1.25rem
-	line-height: 1.5;
 }
 
 h1.site-title {
