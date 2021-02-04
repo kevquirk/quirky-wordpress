@@ -677,10 +677,7 @@ code,
 kbd,
 tt,
 var {
-  color: var(--code-text) !important;
-	background: var(--code) !important;
-	padding: 2px 7px 2px 7px;
-	border-radius: 4px;
+  color: var(--code-text);
 }
 
 abbr,
