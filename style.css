@@ -573,11 +573,6 @@ h1.site-title {
     line-height: 1.2;
 }
 
-.entry-meta,
-.entry-header  {
-    background: var(--bg);
-}
-
 .site-title a:hover {
   color: var(--accent);
 }
