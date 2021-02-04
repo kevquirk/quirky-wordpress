@@ -660,8 +660,14 @@ p {
 
 .has-medium-font-size {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.5rem;
   line-height: 1.3;
+}
+
+.sub-heading {
+  color: var(--meta);
+  font-size: 1.5rem;
+  font-style: italic;
 }
 
 .narrow-text-90 {
@@ -1000,7 +1006,8 @@ nav a:focus {
 }
 
 nav a:hover,
-nav a.current {
+nav a.current,
+.current-menu-item {
   text-decoration: underline;
   text-decoration-color: var(--underline);
   text-decoration-thickness: .15rem;
