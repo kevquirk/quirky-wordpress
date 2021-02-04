@@ -573,12 +573,9 @@ h1.site-title {
     line-height: 1.2;
 }
 
-.site-title a,
-.site-title a:visited,
-.entry-meta {
-    color: var(--text);
-    text-decoration: none;
-    background: none;
+.entry-meta,
+.entry-header  {
+    background: var(--bg);
 }
 
 .site-title a:hover {
