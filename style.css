@@ -1006,8 +1006,7 @@ nav a:focus {
 }
 
 nav a:hover,
-nav a.current,
-.current-menu-item {
+nav a.current-menu-item {
   text-decoration: underline;
   text-decoration-color: var(--underline) !important;
   text-decoration-thickness: .15rem;
