@@ -1008,8 +1008,12 @@ textarea {
 nav {
   text-align: center;
   font-size: 1rem;
-  margin-left: 2rem;
+  margin-left: 3rem;
   padding-top: 1.25rem;
+}
+
+nav ul {
+  padding: 0;
 }
 
 nav li {
