@@ -474,6 +474,63 @@ textarea {
 	width: 60%;
 }
 
+input#submit {
+  border: none;
+  border-radius: 5px;
+  background: var(--accent);
+  font-size: 1rem;
+  color: var(--bg);
+  padding: .5rem .7rem;
+  margin: .5rem 0;
+  transition: all .4s ease-in-out;
+}
+
+input#submit:hover {
+  background: var(--text);
+}
+
+input#email,
+input.search {
+  font-size: 1rem;
+  padding: .7rem;
+  border-radius: 5px;
+  border: 1px solid var(--border);
+  background: var(--input);
+  color: var(--text);
+  width: 70%;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: var(--input);
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* Subscribe form on posts */
+.subscribe-form {
+  background: var(--accent-bg);
+  padding: 25px;
+  outline: dashed 2px var(--text);
+  outline-offset: -8px;
+  margin: 1em 0;
+}
+
+.subscribe-form h2 {
+  margin: 0;
+}
+
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
