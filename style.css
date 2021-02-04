@@ -203,7 +203,6 @@ hr {
  */
  pre {
  	font-family: var(--mono-font);
- 	font-size: 1.15rem;
    background: black !important;
  	border-radius: 5px;
  	margin-bottom: 1.6em;
@@ -678,6 +677,7 @@ kbd,
 tt,
 var {
   color: var(--code);
+  font-size: 1.2rem;
 }
 
 abbr,
