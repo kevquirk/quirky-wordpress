@@ -495,7 +495,7 @@ input.search {
   padding: .7rem;
   border-radius: 5px;
   border: 1px solid var(--border);
-  background: var(--input);
+  background: var(--input-bg);
   color: var(--text);
   width: 70%;
 }
