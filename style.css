@@ -997,6 +997,11 @@ nav a:hover,
   }
 }
 
+nav.navigation.posts-navigation {
+  margin: 0;
+  border-top: 1px solid var(--border);
+}
+
 nav.navigation.posts-navigation a {
   color: var(--meta);
 }
@@ -1207,6 +1212,7 @@ h1.site-logo a:hover {
     border-top: 1px solid var(--border);
     padding: 1rem 0;
     text-align: center;
+    margin-top: 3rem;
 }
 
 .site-footer p {
