@@ -678,7 +678,7 @@ kbd,
 tt,
 var {
   color: var(--code);
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
 abbr,
