@@ -722,6 +722,10 @@ cite {
   font-style: normal;
 }
 
+cite em {
+  font-style: normal;
+}
+
 address {
 	margin: 0 0 1.5em;
 }
