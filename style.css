@@ -779,8 +779,7 @@ article a,
 p.feature-credit a,
 p.feature-credit a:visited,
 .menu-items a,
-.response a,
-nav.navigation.posts-navigation a {
+.response a {
   color: var(--accent);
   text-decoration-thickness: .15rem;
   text-decoration-color: var(--underline);
@@ -996,6 +995,15 @@ nav a:hover,
   .hide-mobile {
     display: none;
   }
+}
+
+nav.navigation.posts-navigation a {
+  color: var(--meta);
+}
+
+nav.navigation.posts-navigation a:hover {
+  color: var(--accent);
+  text-decoration: none;
 }
 
 /****** Header elements ******/
