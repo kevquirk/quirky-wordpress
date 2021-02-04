@@ -1431,6 +1431,23 @@ p.has-background {
   }
 }
 
+/**** 100 Days Banner ****/
+
+.hundred-days,
+.banner {
+  background: var(--accent-bg);
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem .5rem;
+  border: 2px solid var(--text);
+  border-radius: 5px;
+}
+
+.hundred-days-number {
+  font-size: 1.4rem;
+  color: var(--code);
+}
+
 /** Blue colours **/
 .has-blue-background-color {
 	background-color: var(--accent) !important;
