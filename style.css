@@ -203,7 +203,8 @@ hr {
  */
  pre {
  	font-family: var(--mono-font);
-   background: black !important;
+  font-size: 1.25rem;
+  background: black !important;
  	border-radius: 5px;
  	margin-bottom: 1.6em;
  	max-width: 100%;
