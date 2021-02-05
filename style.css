@@ -1070,6 +1070,11 @@ nav.navigation.posts-navigation a:hover {
   text-decoration: none;
 }
 
+.sub-menu {
+  position: relative;
+  display: inline-block;
+}
+
 ul.sub-menu {
   display: none;
   position: absolute;
