@@ -214,7 +214,6 @@ hr {
  }
 
  pre code {
-   font-size: 1.25rem;
    color: #ccc;
  }
 
@@ -732,7 +731,7 @@ code,
 kbd,
 tt,
 var {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   color: var(--code);
 }
 
