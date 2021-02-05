@@ -1079,6 +1079,10 @@ ul.sub-menu {
   z-index: 1;
 }
 
+.more-link:hover ul.sub-menu {
+  display: block;
+}
+
 /****** Header elements ******/
 h1.site-logo {
   font-size: 2rem;
