@@ -1071,7 +1071,8 @@ nav.navigation.posts-navigation a:hover {
 }
 
 .sub-menu {
-  
+  position: relative;
+  display: inline-block;
 }
 
 /****** Header elements ******/
