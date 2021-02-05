@@ -792,6 +792,10 @@ dd {
   list-style-type: none;
 }
 
+.wp-block-latest-posts.wp-block-latest-posts__list li {
+  margin: .75rem 0;
+}
+
 /* Make sure embeds and iframes fit their containers. */
 embed,
 iframe,
