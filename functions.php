@@ -177,11 +177,11 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 }
 
 // Remove notes (-51) category from homepage
-function exclude_category_home( $query ) {
-if ( $query->is_home ) {
-$query->set( 'cat', '-51' );
-}
-return $query;
+// function exclude_category_home( $query ) {
+// if ( $query->is_home ) {
+// $query->set( 'cat', '-51' );
+// }
+// return $query;
 }
 
 // Add support for custom colour pallette in Gutenberg.
