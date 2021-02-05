@@ -18,7 +18,7 @@ get_header();
 				<header>
 					<?php
 					echo( '<h1 class="notes-title">📰 Newsletter Archives</h1>' );
-					echo( '<p>This page shows the archives from <a href="/newsletter">my newsletter</a>, 📰 The Meta Letter. Posts will be published here a few days after the newsletter is sent out.</p>');
+					echo( '<p>This page shows the archives from <a href="/newsletter">my newsletter</a>, <b>📰 The Meta Letter</b>. Posts will be published here a few days after the newsletter is sent out.</p>');
 					?>
 				</header>
 			</header><!-- .page-header -->
