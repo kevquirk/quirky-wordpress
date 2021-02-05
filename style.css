@@ -1051,6 +1051,12 @@ nav a:hover,
   nav {
     margin-left: 1rem;
   }
+  .hide-tablet {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 640px) {
   .hide-mobile {
     display: none;
   }
