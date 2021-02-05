@@ -1070,9 +1070,13 @@ nav.navigation.posts-navigation a:hover {
   text-decoration: none;
 }
 
-.sub-menu {
-  position: relative;
-  display: inline-block;
+ul.sub-menu {
+  display: none;
+  position: absolute;
+  background-color: var(--accent-bg);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 /****** Header elements ******/
