@@ -1083,6 +1083,13 @@ ul.sub-menu {
   display: block;
 }
 
+ul.sub-menu a {
+  color: var(--text) !important;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
 /****** Header elements ******/
 h1.site-logo {
   font-size: 2rem;
