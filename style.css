@@ -734,6 +734,7 @@ kbd,
 tt,
 var {
   font-size: 1.25rem;
+  font-family: var(--mono-font);
   color: var(--code);
 }
 
