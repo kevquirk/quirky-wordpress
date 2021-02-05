@@ -788,11 +788,8 @@ dd {
   list-style-type: none;
 }
 
-.wp-block-latest-posts.wp-block-latest-posts__list li {
-  margin: .75rem 0;
-}
-
-.wp-block-rss {
+.wp-block-latest-posts.wp-block-latest-posts__list li,
+.wp-block-rss li {
     margin: .75rem 0;
     list-style-type: none;
 }
