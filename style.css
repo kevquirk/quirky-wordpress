@@ -788,6 +788,10 @@ dd {
 	margin: 0 1.5em 1.5em;
 }
 
+.no-bullets {
+  list-style-type: none;
+}
+
 /* Make sure embeds and iframes fit their containers. */
 embed,
 iframe,
