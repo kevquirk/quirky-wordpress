@@ -182,7 +182,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 // $query->set( 'cat', '-51' );
 // }
 // return $query;
-}
+// }
 
 // Add support for custom colour pallette in Gutenberg.
 add_theme_support( 'editor-color-palette', array(
