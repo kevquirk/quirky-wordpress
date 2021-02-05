@@ -39,17 +39,18 @@
 					)
 				);
 				?>
+				<!-- Mobile menu drop-down -->
+				<div class="dropdown">
+				  <button class="dropbtn">More ˅</button>
+				  <div class="dropdown-content">
+				    <a href="/category/notes">Notes</a>
+				    <a href="/guestbook">Guestbook</a>
+				    <a href="/newsletter">Newsletter</a>
+						<a href="/blogroll">Blogroll</a>
+						<a href="/search">Search</a>
+				  </div>
+			</div>
 
-				<div class="mobile-nav">
-					<nav id="site-navigation" class="sub-nav">
-						<?php
-						wp_nav_menu(
-							array(
-								'theme_location' => 'menu-2',
-								'menu_id'        => 'seconday-menu',
-							)
-						);
-						?>
 			</nav><!-- #site-navigation -->
 </div>
 </header><!-- #masthead -->
