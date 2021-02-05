@@ -39,21 +39,22 @@
 					)
 				);
 				?>
-				<!-- Mobile menu drop-down -->
-				<div class="dropdown">
-				  <button class="dropbtn">More ˅</button>
-				  <div class="dropdown-content">
-				    <a href="/category/notes">Notes</a>
-				    <a href="/guestbook">Guestbook</a>
-				    <a href="/newsletter">Newsletter</a>
-						<a href="/blogroll">Blogroll</a>
-						<a href="/search">Search</a>
-				  </div>
-			</div>
 
 			</nav><!-- #site-navigation -->
 </div>
 </header><!-- #masthead -->
+
+<!-- Mobile menu drop-down -->
+<div class="dropdown">
+	<button class="dropbtn">More ˅</button>
+	<div class="dropdown-content">
+		<a href="/category/notes">Notes</a>
+		<a href="/guestbook">Guestbook</a>
+		<a href="/newsletter">Newsletter</a>
+		<a href="/blogroll">Blogroll</a>
+		<a href="/search">Search</a>
+	</div>
+</div>
 
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'nineteen-quirky' ); ?></a>
