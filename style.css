@@ -309,10 +309,6 @@ img {
 	text-align: center;
 }
 
-.wp-block-rss {
-    margin-bottom: 2rem;
-}
-
 /* Formats the feature image correctly */
 .attachment-post-thumbnail {
     width: 100%;
@@ -794,6 +790,11 @@ dd {
 
 .wp-block-latest-posts.wp-block-latest-posts__list li {
   margin: .75rem 0;
+}
+
+.wp-block-rss {
+    margin: .75rem 0;
+    list-style-type: none;
 }
 
 /* Make sure embeds and iframes fit their containers. */
