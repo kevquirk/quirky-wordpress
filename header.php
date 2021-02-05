@@ -39,6 +39,17 @@
 					)
 				);
 				?>
+
+				<div class="mobile-nav">
+					<nav id="site-navigation" class="sub-nav">
+						<?php
+						wp_nav_menu(
+							array(
+								'theme_location' => 'menu-2',
+								'menu_id'        => 'seconday-menu',
+							)
+						);
+						?>
 			</nav><!-- #site-navigation -->
 </div>
 </header><!-- #masthead -->
