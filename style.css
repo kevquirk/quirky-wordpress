@@ -1044,7 +1044,7 @@ nav a:hover,
   margin-bottom: 3rem;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 740px) {
   .head-banner {
     margin: 0;
   }
