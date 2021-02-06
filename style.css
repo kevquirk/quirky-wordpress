@@ -116,18 +116,18 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  /* Define colours for auto dark mode */
 @media (prefers-color-scheme: dark) {
     :root {
-      --accent: #FFB300;
+      --accent: #fdd1b1;
       --accent-light: #000;
-      --bg: #212121;
-      --accent-bg: #2B2B2B;
-      --text: #DCDCDC;
-      --underline: #FFECB3;
-      --meta: #ABABAB;
-      --code: #F06292;
-      --input-bg: #333;
+      --bg: #142642;
+      --accent-bg: #112138;
+      --text: #b1ddfd;
+      --underline: #fdd1b1;
+      --meta: #9ac1dc;
+      --code: ##FDB1B7;
+      --input-bg: #112138;
       --wysiwyg: #9A9A9A;
-      --admin-reply: #222;
-      --header: #1a1a1a;
+      --admin-reply: #112138;
+      --header: #0d192b;
     }
 
     .wp-block-image img {
