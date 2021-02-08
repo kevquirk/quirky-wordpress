@@ -834,6 +834,10 @@ td {
     border-radius: 8px;
 }
 
+.wp-block-table.is-style-stripes {
+  border-bottom: none;
+}
+
 /* Links
 --------------------------------------------- */
 a,
