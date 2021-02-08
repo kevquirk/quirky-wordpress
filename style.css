@@ -1438,6 +1438,10 @@ p.has-background {
     text-decoration-color: var(--bg);
   }
 
+  .notice code {
+    color: #AD1457;
+}
+
   .notice-red {
     background: var(--dark-red);
     color: white;

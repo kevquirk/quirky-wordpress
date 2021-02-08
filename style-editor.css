@@ -312,10 +312,6 @@ a.button {
   text-decoration: none;
 }
 
-.notice code {
-  color: var(--dark-blue);
-}
-
 .notice-red {
   border-radius: 5px;
   border: 2px solid var(--dark-red);
