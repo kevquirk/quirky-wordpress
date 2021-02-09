@@ -533,7 +533,6 @@ input {
 }
 
 /* Banner on newsletter page */
-
 .newsletter-banner {
  width: 100vw;
  position: relative;
@@ -555,6 +554,11 @@ input {
 .newsletter-banner a {
   color: var(--bg) !important;
   text-decoration: none;
+}
+
+/* Hide title on newsletter page */
+.page-id-4390 h1.entry-title {
+  display: none;
 }
 
 /**
