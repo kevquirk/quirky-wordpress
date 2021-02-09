@@ -112,18 +112,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
  }
 
- .newsletter-banner {
-  width: 100vw;
-  position: relative;
-  text-align: center;
-  background: var(--accent);
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-}
-
-
  /* Define colours for auto dark mode */
 @media (prefers-color-scheme: dark) {
     :root {
@@ -542,6 +530,25 @@ input {
 
 .subscribe-form h2 {
   margin: 0;
+}
+
+/* Banner on newsletter page */
+
+.newsletter-banner {
+ width: 100vw;
+ position: relative;
+ text-align: center;
+ background: var(--accent);
+ color: var(--bg);
+ left: 50%;
+ right: 50%;
+ margin-left: -50vw;
+ margin-right: -50vw;
+}
+
+.newsletter-banner a {
+  colour: var(--bg);
+  text-decoration: none;
 }
 
 /**
