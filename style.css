@@ -537,6 +537,7 @@ input {
 .newsletter-banner {
  width: 100vw;
  position: relative;
+ top: -2rem;
  text-align: center;
  background: var(--accent);
  color: var(--bg);
