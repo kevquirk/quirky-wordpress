@@ -115,6 +115,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  .newsletter-banner {
   width: 100vw;
   position: relative;
+  text-align: center;
+  background: var(--accent);
   left: 50%;
   right: 50%;
   margin-left: -50vw;
