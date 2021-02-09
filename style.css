@@ -130,7 +130,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
       --bg: #212121;
       --accent-bg: #2B2B2B;
       --text: #DCDCDC;
-      --underline: #FFECB3;
+      --underline: #ffd87d;
       --meta: #ABABAB;
       --code: #F06292;
       --input-bg: #333;
@@ -316,10 +316,6 @@ img {
 	color: var(--meta);
 	font-size: 0.9rem;
 	text-align: center;
-}
-
-.wp-block-rss {
-    margin-bottom: 2rem;
 }
 
 /* Formats the feature image correctly */
@@ -795,6 +791,16 @@ dt {
 
 dd {
 	margin: 0 1.5em 1.5em;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.wp-block-latest-posts.wp-block-latest-posts__list li,
+.wp-block-rss li {
+    margin: .75rem 0;
+    list-style-type: none;
 }
 
 /* Make sure embeds and iframes fit their containers. */
@@ -1615,27 +1621,30 @@ p.has-background {
 /* Format the old posts notice */
 .old-notice {
     padding: 20px 30px;
-    background-color: var(--accent);
+    background: var(--light-blue);
+    border: 2px solid var(--dark-blue);
     margin: 1em 0;
-    color: var(--bg);
+    color: var(--dark-blue);
     border-radius: 4px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
 
 .old-notice a, .old-notice a:visited {
-		color: var(--bg);
-		border-color: var(--bg);
-    background: none;
-    border-bottom: 2px solid var(--bg);
-    border-radius: 0;
-    padding: 0;
+	color: var(--dark-blue);
+	text-decoration-color: var(--dark-blue);
 }
 
-.old-notice a:hover, .old-notice a:active {
-		color: var(--bg);
-		border-color: var(--bg);
-    border-bottom: 2px dotted var(--bg);
+/* Format old notice in dark mode */
+@media (prefers-color-scheme: dark) {
+    .old-notice {
+        background: var(--accent);
+        color: var(--bg);
+        border: var(--accent);
+    }
+    .old-notice a, .old-notice a:visited {
+	    color: var(--bg);
+	    text-decoration-color: var(--bg);
+    }
 }
 
 /* Guestbook formatting */
