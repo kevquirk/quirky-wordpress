@@ -547,7 +547,7 @@ input {
 }
 
 .newsletter-banner a {
-  colour: var(--bg);
+  color: var(--bg);
   text-decoration: none;
 }
 
