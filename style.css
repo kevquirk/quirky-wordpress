@@ -521,7 +521,7 @@ input {
 
 /* Subscribe form on posts */
 .subscribe-form {
-  background: var(--accent-light);
+  background: var(--accent-bg);
   border: 2px solid var(--accent);
   border-radius: 5px;
   padding: 25px;
