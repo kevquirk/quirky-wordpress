@@ -1025,7 +1025,7 @@ input[type="datetime-local"],
 input[type="color"],
 textarea {
 	color: var(--text);
-	border: 1px solid var(--border);
+	border: 2px solid var(--text);
   background: var(--input-bg);
 	border-radius: 3px;
 	padding: .5rem;
