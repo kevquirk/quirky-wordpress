@@ -544,7 +544,7 @@ input {
  right: 50%;
  margin-left: -50vw;
  margin-right: -50vw;
- padding: 0 0 2rem 0;
+ padding: 3rem 0 2rem 0;
 }
 
 .newsletter-banner h1 {
@@ -559,6 +559,12 @@ input {
 .newsletter-banner a {
   color: var(--bg) !important;
   text-decoration: none;
+}
+
+/* Change header on newsletter page 4390 is staging, 2469 is live */
+.page-id-4390 h1.entry-title,
+.page-id-2469 h1.entry-title {
+  display: none;
 }
 
 /**
