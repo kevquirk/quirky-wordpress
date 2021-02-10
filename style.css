@@ -578,6 +578,15 @@ input {
   background: var(--accent);
 }
 
+@media (prefers-color-scheme: dark) {
+  .page-id-4390 .head-banner a,
+  .page-id-2469 .head-banner a,
+  .page-id-4390 .head-banner nav a,
+  .page-id-2469 .head-banner nav a {
+    color: var(--text);
+  }
+}
+
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
