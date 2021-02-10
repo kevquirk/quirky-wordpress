@@ -25,7 +25,7 @@ get_header();
 
 			  <p>Do you want to be successful, respected and rich? Do you want all your dreams to come true? If so, <del>ignore this box because I’m an idiot and can’t help</del> you need my newsletter! <a href="/newsletter">More info</a></p>
 
-			  <p>⚠️ Warning: Reading my newsletter will not make you successful, respected or rich and is likely to significantly reduce your intelligence.</p>
+			  <p><b>⚠️ Warning:</b> Reading my newsletter <b>will not</b> make you successful, respected or rich and is likely to significantly reduce your intelligence.</p>
 
 				<p>May contain nuts. 🥜</p>
 
