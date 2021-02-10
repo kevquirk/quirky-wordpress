@@ -561,21 +561,6 @@ input {
   text-decoration: none;
 }
 
-/* Change header on newsletter page 4390 is staging, 2469 is live */
-.page-id-4390 h1.entry-title,
-.page-id-4390 nav,
-.page-id-2469 h1.entry-title,
-.page-id-2469 nav {
-  display: none;
-}
-
-.page-id-4390 #masthead,
-.page-id-4390 .head-banner,
-.page-id-2469 #masthead,
-.page-id-2469 .head-banner {
-  background: var(--accent);
-}
-
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
