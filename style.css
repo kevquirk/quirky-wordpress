@@ -1756,8 +1756,12 @@ i.gb-moderator {
   background: var(--wysiwyg) !important;
 }
 
-.gwolle_gb_submit {
-  padding: .1rem .75rem !important;
+.gwolle_gb_submit.button.btn.btn-primary {
+  padding: .1rem .9rem;
+}
+
+.label.gwolle-gb-invisible.text-muted {
+  display: none;
 }
 
 label,
