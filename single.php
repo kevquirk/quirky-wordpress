@@ -36,7 +36,7 @@ get_header();
 				<input type="hidden" name="subform" value="yes"/>
 				<input type="submit" name="submit" value="Subscribe!" id="submit"/>
 			  </form>
-				<p class="small"><a href="/newsletter">More info</a></p>
+				<a class="small" href="/newsletter">More info</a>
 			</div>
 
 			<hr>
