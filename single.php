@@ -23,7 +23,7 @@ get_header();
 			<div class="subscribe-form">
 				<h2>📰 Cool people get newsletters!</h2>
 
-			  <p>Do you want to be successful, respected and rich? Do you want all your dreams to come true? If so, <del>ignore this box because I’m an idiot and can’t help</del> you need my newsletter! To find out more <a href="/newsletter">click here</a>.</p>
+			  <p>Do you want to be successful, respected and rich? Do you want all your dreams to come true? If so, <del>ignore this box because I’m an idiot and can’t help</del> you need my newsletter!</p>
 
 			  <p>⚠️ Warning: Reading my newsletter will not make you successful, respected or rich and is likely to significantly reduce your intelligence.</p>
 
@@ -36,6 +36,7 @@ get_header();
 				<input type="hidden" name="subform" value="yes"/>
 				<input type="submit" name="submit" value="Subscribe!" id="submit"/>
 			  </form>
+				<p class="small"><a href="/newsletter">More info</a></p>
 			</div>
 
 			<hr>
