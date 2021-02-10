@@ -495,7 +495,7 @@ input.search {
   font-size: 1rem;
   padding: .7rem;
   border-radius: 5px;
-  border: 2px solid var(--accent);
+  border: 2px solid var(--text);
   background: var(--input-bg);
   color: var(--text);
   width: 70%;
@@ -522,7 +522,7 @@ input {
 /* Subscribe form on posts */
 .subscribe-form {
   background: var(--accent-bg);
-  border: 2px solid var(--accent);
+  border: 2px solid var(--text);
   border-radius: 5px;
   padding: 25px;
   margin: 1em 0;
@@ -1774,7 +1774,7 @@ label,
 
 input,
 textarea {
-    border: 2px solid var(--accent);
+    border: 2px solid var(--text);
 }
 
 .gwolle_gb_content.wp-exclude-emoji.markItUpEditor {
