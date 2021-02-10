@@ -23,13 +23,11 @@ get_header();
 			<div class="subscribe-form">
 				<h2>📰 Cool people get newsletters!</h2>
 
-			  <p>Do you want to be successful, respected and rich? Do you want all your dreams to come true? If so, <del>ignore this box because I’m an idiot and can’t help</del> you need my newsletter!</p>
+			  <p>Do you want to be successful, respected and rich? Do you want all your dreams to come true? If so, <del>ignore this box because I’m an idiot and can’t help</del> you need my newsletter! <a href="/newsletter">More info</a></p>
 
 			  <p>⚠️ Warning: Reading my newsletter will not make you successful, respected or rich and is likely to significantly reduce your intelligence.</p>
 
 				<p>May contain nuts. 🥜</p>
-
-				<a class="small" href="/newsletter">More info</a>
 
 			  <form action="https://newsletter.kevq.uk/subscribe" method="POST" accept-charset="utf-8">
 				<label for="email" class="visuallyhidden">Email</label>
