@@ -12,15 +12,6 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-		<!-- Old post notification -->
-		<?php
-			$old_post = 60*60*24*365; // A Year
-			if((date('U')-get_the_time('U')) > $old_post) {
-	  	echo '<div class="old-notice">⚡ ⚡ <b>OLD POST NOTICE</b> ⚡ ⚡<br>
-			This post was last updated over a year ago, therefore this content may be out of date. Please see my <a target="blank" href="/disclaimer">disclaimer</a> for more information.</div>';
-			}
-		?>
-
 		<?php
 		while ( have_posts() ) :
 			the_post();

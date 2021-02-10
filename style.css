@@ -248,7 +248,7 @@ abbr[title] {
  */
 b,
 strong {
-	font-weight: bolder;
+	font-weight: bold;
 }
 
 /**
@@ -862,6 +862,10 @@ td {
     border-radius: 8px;
 }
 
+.wp-block-table.is-style-stripes {
+  border-bottom: none;
+}
+
 /* Links
 --------------------------------------------- */
 a,
@@ -1465,6 +1469,10 @@ p.has-background {
     color: var(--bg);
     text-decoration-color: var(--bg);
   }
+
+  .notice code {
+    color: #AD1457;
+}
 
   .notice-red {
     background: var(--dark-red);
