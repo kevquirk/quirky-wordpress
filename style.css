@@ -1161,7 +1161,7 @@ h1.site-logo {
 }
 
 .site-logo a {
-  color: var(--header-text) !important;
+  color: var(--header-text);
   text-decoration: none;
 }
 
