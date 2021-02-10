@@ -557,13 +557,18 @@ input {
 }
 
 /* Hide title on newsletter page */
-.page-id-4390 h1.entry-title {
+.page-id-4390 h1.entry-title,
+.page-id-4390 nav {
   display: none;
 }
 
 .page-id-4390 #masthead,
 .page-id-4390 .head-banner {
   background: var(--accent);
+}
+
+.page-id-4390 .newsletter-banner {
+  padding: 0 0 1.5rem 0;
 }
 
 /**
