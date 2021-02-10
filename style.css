@@ -561,6 +561,11 @@ input {
   display: none;
 }
 
+.page-id-4390 #masthead,
+.page-id-4390 .head-banner {
+  background: var(--accent);
+}
+
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
