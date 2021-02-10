@@ -495,7 +495,7 @@ input.search {
   font-size: 1rem;
   padding: .7rem;
   border-radius: 5px;
-  border: 1px solid var(--border);
+  border: 2px solid var(--accent);
   background: var(--input-bg);
   color: var(--text);
   width: 70%;
@@ -1774,7 +1774,7 @@ label,
 
 input,
 textarea {
-    border: 2px solid var(--text) !important;
+    border: 2px solid var(--accent);
 }
 
 .gwolle_gb_content.wp-exclude-emoji.markItUpEditor {
