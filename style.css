@@ -532,6 +532,10 @@ input {
   margin: 0;
 }
 
+.subscribe-form p {
+  font-size: 1.1rem;
+}
+
 /* Banner on newsletter page */
 .newsletter-banner {
  width: 100vw;
