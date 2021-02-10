@@ -583,7 +583,7 @@ input {
   .page-id-2469 .head-banner a,
   .page-id-4390 .head-banner nav a,
   .page-id-2469 .head-banner nav a,
-  h1.site-logo a {
+  .site-logo a {
     color: var(--bg);
   }
 }
