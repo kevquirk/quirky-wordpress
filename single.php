@@ -29,6 +29,8 @@ get_header();
 
 				<p>May contain nuts. 🥜</p>
 
+				<a class="small" href="/newsletter">More info</a>
+
 			  <form action="https://newsletter.kevq.uk/subscribe" method="POST" accept-charset="utf-8">
 				<label for="email" class="visuallyhidden">Email</label>
 				<input type="email" placeholder="jane@example.com" name="email" id="email"/>
@@ -36,7 +38,6 @@ get_header();
 				<input type="hidden" name="subform" value="yes"/>
 				<input type="submit" name="submit" value="Subscribe!" id="submit"/>
 			  </form>
-				<a class="small" href="/newsletter">More info</a>
 			</div>
 
 			<hr>
