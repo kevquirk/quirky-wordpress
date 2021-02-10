@@ -544,11 +544,16 @@ input {
  right: 50%;
  margin-left: -50vw;
  margin-right: -50vw;
- padding: 0 .5rem 2rem .5rem;
+ padding: 0 0 2rem 0;
 }
 
 .newsletter-banner h1 {
   margin: 0;
+  padding: 0 .5rem;
+}
+
+.newsletter-banner p {
+  padding: 0 .5rem;
 }
 
 .newsletter-banner a {
