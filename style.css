@@ -481,7 +481,7 @@ input#submit {
   background: var(--accent);
   font-size: 1rem;
   color: var(--bg);
-  padding: .5rem .7rem;
+  padding: .75rem .9rem;
   margin: .5rem 0;
   transition: all .4s ease-in-out;
 }
