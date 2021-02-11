@@ -573,6 +573,11 @@ input {
   padding: .5rem;
 }
 
+.blogroll-banner h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
 .blogroll-banner p,
 .blogroll-banner a {
   margin: 0;
