@@ -586,7 +586,7 @@ input {
 }
 
 .blogroll-banner p {
-  font-color: var(--meta);
+  color: var(--meta);
 }
 
 /* Change header on newsletter page 4390 is staging, 2469 is live */
