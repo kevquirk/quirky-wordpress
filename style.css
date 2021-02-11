@@ -574,13 +574,24 @@ input {
   padding: .5rem;
 }
 
-.blogroll-banner h2 {
+.blogroll-banner-fav {
+  background: #FFF9C4;
+  border: 2px solid #F9A825;
+  border-radius: 5px;
+  margin: 1rem 0;
+  padding: .5rem;
+}
+
+.blogroll-banner h2,
+.blogroll-banner-fav h2 {
   font-size: 1.5rem;
   margin: 0 0 .5rem 0;
 }
 
 .blogroll-banner p,
-.blogroll-banner a {
+.blogroll-banner a,
+.blogroll-banner-fav p,
+.blogroll-banner-fav a {
   margin: 0;
   font-size: 1rem;
 }
