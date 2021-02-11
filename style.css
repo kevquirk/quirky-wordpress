@@ -584,6 +584,10 @@ input {
   font-size: 1rem;
 }
 
+.blogroll-banner p {
+  font-color: var(--meta);
+}
+
 /* Change header on newsletter page 4390 is staging, 2469 is live */
 .page-id-4390 h1.entry-title,
 .page-id-2469 h1.entry-title {
