@@ -597,7 +597,8 @@ input {
 }
 
 .blogroll-banner-fav a,
-.blogroll-banner-fav p {
+.blogroll-banner-fav p,
+.blogroll-banner-fav h2 {
   color: #212121 !important;
   text-decoration-color: #212121 !important;
 }
