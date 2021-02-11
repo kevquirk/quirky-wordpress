@@ -566,7 +566,7 @@ input {
 }
 
 /* Format the blogroll banners */
-.blorgoll-banner {
+.blogroll-banner {
   background: var(--accent-bg);
   border: 2px solid var(--accent);
   border-radius: 5px;
