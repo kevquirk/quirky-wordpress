@@ -576,10 +576,16 @@ input {
 
 .blogroll-banner-fav {
   background: #FFF9C4;
-  border: 2px solid #F9A825;
+  border: 2px solid #FFB300;
   border-radius: 5px;
   margin: 1rem 0;
   padding: .5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .blogroll-banner-fav {
+    background: #FFF7A9;
+  }
 }
 
 .blogroll-banner h2,
