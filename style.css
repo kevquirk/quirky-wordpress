@@ -570,6 +570,7 @@ input {
   background: var(--accent-bg);
   border: 2px solid var(--accent);
   border-radius: 5px;
+  margin: 1rem 0;
   padding: .5rem;
 }
 
