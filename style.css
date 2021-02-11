@@ -570,6 +570,11 @@ input {
   background: var(--accent-bg);
   border: 2px solid var(--accent);
   border-radius: 5px;
+  padding: .5rem;
+}
+
+.blogroll-banner p {
+  margin: 0;
 }
 
 /* Change header on newsletter page 4390 is staging, 2469 is live */
