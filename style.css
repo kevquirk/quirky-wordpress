@@ -569,7 +569,6 @@ input {
 .blogroll-banner {
   background: var(--accent-bg);
   border: 2px solid var(--accent);
-  width: 60%;
   border-radius: 5px;
   margin: 1rem auto;
   padding: .5rem;
