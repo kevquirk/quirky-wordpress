@@ -573,8 +573,10 @@ input {
   padding: .5rem;
 }
 
-.blogroll-banner p {
+.blogroll-banner p,
+.blogroll-banner a {
   margin: 0;
+  font-size: 1rem;
 }
 
 /* Change header on newsletter page 4390 is staging, 2469 is live */
