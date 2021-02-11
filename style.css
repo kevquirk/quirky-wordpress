@@ -596,6 +596,12 @@ input {
   font-size: 1rem;
 }
 
+.blogroll-banner-fav a,
+.blogroll-banner-fav p {
+  color: #212121 !important;
+  text-decoration-color: #212121 !important;
+}
+
 .blogroll-banner p {
   color: var(--meta);
 }
