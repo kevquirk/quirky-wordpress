@@ -570,7 +570,7 @@ input {
   background: var(--accent-bg);
   border: 2px solid var(--accent);
   border-radius: 5px;
-  margin: 1rem auto;
+  margin: 2rem 0;
   padding: .5rem;
 }
 
@@ -578,7 +578,7 @@ input {
   background: #FFF9C4;
   border: 2px solid #FFB300;
   border-radius: 5px;
-  margin: 1rem 0;
+  margin: 2rem 0;
   padding: .5rem;
 }
 
