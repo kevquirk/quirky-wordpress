@@ -1570,6 +1570,7 @@ p.has-background {
   padding: 1rem .5rem;
   border: 2px solid var(--text);
   border-radius: 5px;
+  margin: 2rem 0;
 }
 
 .hundred-days-number {
