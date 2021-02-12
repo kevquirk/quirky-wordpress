@@ -58,8 +58,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  :root {
      --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
      --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-    --accent: #076678;
-    --accent-light: #427b58;
+    --accent: #0D47A1;
+    --accent-light: #E3F2FD;
     --bg: #FAFAFA;
     --accent-bg: #F5F7FF;
     --text: #212121;
