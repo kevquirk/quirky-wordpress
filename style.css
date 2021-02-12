@@ -1538,20 +1538,16 @@ p.has-background {
 @media (prefers-color-scheme: dark) {
   .notice,
   .notice-blue {
-    background: var(--accent);
-    color: var(--bg);
+    background: var(--bg);
+    color: var(--accent);
     border-color: var(--accent);
   }
 
   .notice a,
   .notice-blue a {
-    color: var(--bg);
-    text-decoration-color: var(--bg);
+    color: var(--accent);
+    text-decoration-color: var(--accent);
   }
-
-  .notice code {
-    color: #AD1457;
-}
 
   .notice-red {
     background: var(--dark-red);
