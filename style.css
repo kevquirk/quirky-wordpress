@@ -306,6 +306,7 @@ img {
 	color: var(--meta);
 	font-size: 0.9rem;
 	text-align: center;
+  margin-top: -2rem;
 }
 
 /* Formats the feature image correctly */
