@@ -814,7 +814,6 @@ blockquote {
 	padding: .4rem .8rem;
 	border-left: .35rem solid var(--accent);
 	color: var(--meta);
-	font-style: italic;
 }
 
 cite {
