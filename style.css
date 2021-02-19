@@ -1487,9 +1487,11 @@ h1.site-logo a:hover {
 /** Custom colours for Gutenberg editor **/
 
 p.has-background {
-  border-radius: 4px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  border: 2px solid var(--accent);
+  background: var(--accent-light) !important;
   margin: 2em 0;
+  color: var(--accent) !important;
 }
 
 /****** Format the notice boxes ******/
@@ -1707,15 +1709,6 @@ p.has-background {
 .has-white-color code {
 	color: var(--code-text);
 	background: var(--code);
-}
-
-/* Fix white text with blue background */
-
-.has-white-color.has-blue-background-color.has-text-color.has-background,
-.has-white-color.has-blue-background-color.has-text-color.has-background a,
-.has-white-color.has-blue-background-color.has-text-color.has-background a:visited {
-    color: var(--bg);
-    border-color: var(--bg) !important;
 }
 
 /* Format the old posts notice */
