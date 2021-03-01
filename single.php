@@ -25,9 +25,7 @@ get_header();
 
 			  <p>Have a poorly written technology, privacy and web-centric newsletter delivered straight to your inbox every month! <a href="https://metaletter.net">More info</a></p>
 
-			  <p><b>⚠️ Warning:</b> Reading my newsletter is likely to significantly reduce your intelligence.</p>
-
-				<p>May contain nuts. 🥜</p>
+			  <p><b>⚠️ Warning:</b> Reading my newsletter is likely to significantly reduce your intelligence. May contain nuts. 🥜</p>
 
 			  <form action="https://newsletter.kevq.uk/subscribe" method="POST" accept-charset="utf-8">
 				<label for="email" class="visuallyhidden">Email</label>
