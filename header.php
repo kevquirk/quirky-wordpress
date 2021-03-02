@@ -27,7 +27,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-<a href="#top"></a>
+<a class="to-top" name="top"></a>
 <?php wp_body_open(); ?>
 
 <header id="masthead">
