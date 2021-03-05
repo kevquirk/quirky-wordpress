@@ -214,7 +214,7 @@ hr {
  }
 
  pre code {
-   font-size: 1.3rem;
+   font-size: 1.2rem;
    font-family: var(--mono-font);
    color: #ccc;
  }
@@ -834,7 +834,7 @@ code,
 kbd,
 tt,
 var {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-family: var(--mono-font);
   color: var(--code);
 }
