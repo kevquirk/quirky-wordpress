@@ -204,6 +204,7 @@ hr {
  */
  pre {
  	font-family: var(--mono-font);
+  font-size: 1.2rem;
   background: var(--pre-bg) !important;
  	border-radius: 5px;
  	margin-bottom: 1.6em;
