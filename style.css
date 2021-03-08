@@ -213,7 +213,8 @@ hr {
  	max-height: 650px;
  }
 
- pre code {
+ pre code,
+ pre[class*="language-"] {
    font-size: 1.2rem;
    font-family: var(--mono-font);
    color: #f8f8f2;
@@ -226,11 +227,6 @@ hr {
    font-size: 1.25rem;
    font-family: var(--mono-font);
    color: var(--code);
- }
-
- /* Prism code block fixes */
- pre[class*="language-"] {
-   font-size: 1.2rem;
  }
 
 .select-all {
