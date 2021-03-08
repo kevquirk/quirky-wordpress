@@ -219,6 +219,21 @@ hr {
    color: #ccc;
  }
 
+ code,
+ kbd,
+ tt,
+ var {
+   font-size: 1.25rem;
+   font-family: var(--mono-font);
+   color: var(--code);
+ }
+
+ /* Prism code block fixes */
+ pre[class*="language-"] {
+   font-size: 1.2rem;
+   color: #f8f8f2;
+ }
+
 .select-all {
 		user-select: all;
 }
@@ -828,15 +843,6 @@ cite em {
 
 address {
 	margin: 0 0 1.5em;
-}
-
-code,
-kbd,
-tt,
-var {
-  font-size: 1.3rem;
-  font-family: var(--mono-font);
-  color: var(--code);
 }
 
 abbr,
