@@ -20,8 +20,6 @@
 				<p><a taget="blank" href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Orange Team</span></a></p>
 			</div>
 
-			<p><a target="blank" href="https://512kb.club"><img alt="512 Club orange team banner" src="/wp-content/themes/quirky/images/orange-team.svg" /></a></p>
-
 			<p><a class="top-link" href="#top">^ TOP ^</a></p>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
