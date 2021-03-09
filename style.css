@@ -1411,7 +1411,8 @@ h1.site-logo a:hover {
 /* 512KB Club banner in footer */
 .kb-club a {
 	text-decoration: none;
-  color: #FBC02D !important;
+  color: #212121 !important;
+  font-weight: bold;
 }
 
 .kb-club-no-bg {
