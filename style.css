@@ -1422,7 +1422,7 @@ h1.site-logo a:hover {
   }
 
   .kb-club a:hover {
-    color: #212121;
+    color: #212121 !important;
   }
 }
 
