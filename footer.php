@@ -17,7 +17,7 @@
 			<a href="https://kevq.uk/disclaimer">Disclaimer</a> | <a href="https://kevq.uk/license-information">License Info</a> | <a href="https://kevq.uk/privacy">Privacy</a> | <a href="https://kevq.uk/buy-me-a-coffee">Coffee</a> | <a href="https://kevq.uk/rss-feeds">RSS</a><br>
 
 			<div class="kb-club">
-				<p><a taget="blank" href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Blue Team</span></a></p>
+				<p><a taget="blank" href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Orange Team</span></a></p>
 			</div>
 
 			<p><a target="blank" href="https://512kb.club"><img alt="512 Club orange team banner" src="/wp-content/themes/quirky/images/orange-team.svg" /></a></p>
