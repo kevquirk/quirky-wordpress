@@ -1427,6 +1427,11 @@ h1.site-logo a:hover {
 	padding: .25rem .5rem;
 }
 
+.kb-club-no-bg:hover {
+	border: 2px solid var(--text);
+	padding: .25rem .5rem;
+}
+
 /*--------------------------------------------------------------
 # Utilities
 --------------------------------------------------------------*/
