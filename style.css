@@ -1408,6 +1408,23 @@ h1.site-logo a:hover {
   font-size: 1rem;
 }
 
+/* 512KB Club banner in footer */
+.kb-club a {
+	text-decoration: none;
+}
+
+.kb-club-no-bg {
+	border: 2px solid var(--text);
+	padding: .5rem 1rem;
+}
+
+.kb-club-bg {
+	background: var(--text);
+	border: 2px solid var(--text);
+	color: var(--bg);;
+	padding: .5rem 1rem;
+}
+
 /*--------------------------------------------------------------
 # Utilities
 --------------------------------------------------------------*/
