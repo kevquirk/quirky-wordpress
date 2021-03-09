@@ -1420,6 +1420,10 @@ h1.site-logo a:hover {
   .kb-club a {
     color: #FBC02D !important;
   }
+
+  .kb-club a:hover {
+    background: #212121;
+  }
 }
 
 .kb-club a:hover {
