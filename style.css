@@ -1413,6 +1413,7 @@ h1.site-logo a:hover {
 	text-decoration: none;
   color: #212121 !important;
   font-weight: bold;
+  padding: .25rem .5rem;
 }
 
 .kb-club a:hover {
