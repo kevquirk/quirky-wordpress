@@ -981,7 +981,8 @@ input.text,
 input[type="text"],
 input[type="button"],
 input[type="submit"],
-.input-checkbox {
+.input-checkbox,
+#wp-block-search__input-1 {
   -webkit-appearance: none;
   border-radius: 0;
 }
