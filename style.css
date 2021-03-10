@@ -979,6 +979,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"],
+.wp-block-search__button,
 .wp-block-button__link,
 .wp-block-button__link:visited {
   font-size: 1.1rem;
@@ -989,6 +990,17 @@ input[type="submit"],
   text-decoration: none;
   border: none !important;
   transition: .4s;
+}
+
+/* Stop iOS formatting field elements */
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+.input-checkbox {
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 
 button:hover,
