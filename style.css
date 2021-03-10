@@ -995,9 +995,9 @@ input[type="submit"],
 .wp-block-button__link:visited {
   font-size: 1.1rem;
 	border-radius: 4px;
-	background: var(--accent);
-	color: var(--bg);
-	padding: 0.75rem 1rem;
+	background: var(--accent) !important;
+	color: var(--bg) !important;
+	padding: 0.75rem 1rem !important;
   text-decoration: none;
   border: none !important;
   transition: .4s;
@@ -1008,11 +1008,13 @@ input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover,
 .wp-block-search__button:hover,
+.wp-block-search__button:focus,
+.wp-block-search__button:active,
 .wp-block-button__link:active,
 .wp-block-button__link:focus,
 .wp-block-button__link:hover {
-	background: var(--text);
-  color: var(--bg);
+	background: var(--text) !important;
+  color: var(--bg) !important;
 }
 
 button:active,
