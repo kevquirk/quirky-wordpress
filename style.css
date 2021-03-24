@@ -182,6 +182,13 @@ main {
   border: none;
   height: 8rem;
   width: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.site-description {
+  text-align: center;
+  margin-top: -1rem;
 }
 
 /* Grouping content
