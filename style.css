@@ -84,9 +84,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
  /* Page layout */
 
- #masthead {
-   background: var(--header);
- }
 
  .head-banner {
    margin: 0 auto;
@@ -96,10 +93,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
    white-space: nowrap;
    overflow: hidden;
    padding-top: 1rem;
- }
-
- #page { /* Default content div */
- 	background: var(--bg);
  }
 
  body {
@@ -1150,7 +1143,7 @@ nav a,
 nav a:visited,
 nav a:focus {
   margin: 0 .5rem;
-  color: var(--header-text);
+  color: var(--text);
   text-decoration: none;
   transition: none;
 }
@@ -1220,7 +1213,7 @@ h1.site-logo {
 }
 
 .site-logo a {
-  color: var(--header-text);
+  color: var(--text);
   text-decoration: none;
 }
 
