@@ -1430,6 +1430,14 @@ h1.site-logo a:hover {
   }
 }
 
+.widget-area .search-form {
+  margin: 2rem 0;
+}
+
+.widget-area .search-field {
+  width: 75%;
+}
+
 .footer-links {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
