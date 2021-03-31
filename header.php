@@ -36,7 +36,7 @@
 			<nav id="site-navigation" class="main-navigation">
 				<div class="nav">
 					<!-- THE HAMBURGER -->
-		      <label for="hamburger">&#9776;</label>
+		      <label for="hamburger">🍔 Menu</label>
 		      <input type="checkbox" id="hamburger"/>
 
 					<!-- MENU ITEMS -->
