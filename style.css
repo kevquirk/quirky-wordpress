@@ -1183,8 +1183,15 @@ nav a:hover,
   }
 
   /* Toggle Show/Hide Menu */
-  #navitems { display: none; }
-  #site-navigation input:checked ~ #navitems { display: block; }
+  #navitems {
+    display: none;
+  }
+
+  #site-navigation input:checked ~ #navitems {
+    display: block;
+    position: fixed;
+    background: var(--bg);
+  }
 }
 
 nav.navigation.posts-navigation {
