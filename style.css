@@ -108,8 +108,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
    height: 5rem;
  }
 
- #masthead a,
- #masthead label {
+ #masthead a {
    color: var(--header-text);
  }
 
@@ -1184,7 +1183,7 @@ nav a:hover,
   /* Show Hamburger Icon */
   #site-navigation label {
     display: inline-block;
-    color: var(--text);
+    color: var(--header-text);
   }
 
   nav {
