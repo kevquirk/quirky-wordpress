@@ -1164,6 +1164,8 @@ nav a:hover,
 /* Hide Hamburger */
 #site-navigation label, #hamburger {
   display: none;
+  line-height: 1.8;
+  font-weight: normal;
 }
 
 /* [ON SMALL SCREENS] */
