@@ -32,17 +32,22 @@
 <header id="masthead">
 	<div class="head-banner">
 		<h1 class="site-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-		<div class="nav">
-			<nav id="site-navigation" class="main-navigation">
-				<?php
-				wp_nav_menu(
-					array(
-						'theme_location' => 'menu-1',
-						'menu_id'        => 'primary-menu',
-					)
-				);
-				?>
 
+			<nav id="site-navigation" class="main-navigation">
+				<div class="nav">
+					<!-- THE HAMBURGER -->
+		      <label for="hamburger">&#9776;</label>
+		      <input type="checkbox" id="hamburger"/>
+
+					<!-- MENU ITEMS -->
+						<?php
+						wp_nav_menu(
+							array(
+								'theme_location' => 'menu-1',
+								'menu_id'        => 'primary-menu',
+							)
+						);
+						?>
 			</nav><!-- #site-navigation -->
 </div>
 </header><!-- #masthead -->
