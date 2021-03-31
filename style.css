@@ -1429,7 +1429,7 @@ h1.site-logo a:hover {
 
 .footer-links {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .footer-area ul {
