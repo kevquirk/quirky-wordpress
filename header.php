@@ -40,6 +40,7 @@
 		      <input type="checkbox" id="hamburger"/>
 
 					<!-- MENU ITEMS -->
+					<div id="navitems">
 						<?php
 						wp_nav_menu(
 							array(
@@ -48,6 +49,7 @@
 							)
 						);
 						?>
+					</div>
 			</nav><!-- #site-navigation -->
 </div>
 </header><!-- #masthead -->
