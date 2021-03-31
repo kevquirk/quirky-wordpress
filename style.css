@@ -113,6 +113,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  .site-main {
    max-width: 65ch;
  	 padding: 0 .5rem;
+   margin: 0 auto;
  }
 
  /* Define colours for auto dark mode */
