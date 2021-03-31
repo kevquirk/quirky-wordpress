@@ -100,8 +100,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
  #page { /* Default content div */
  	background: var(--bg);
-  max-width: 1240px;
-  margin: 0 auto;
  }
 
  body {
@@ -1416,6 +1414,8 @@ h1.site-logo a:hover {
 .widget-area {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  max-width: 1240px;
+  margin: 0 auto;
 }
 
 /*--------------------------------------------------------------
