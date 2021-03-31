@@ -1167,26 +1167,17 @@ nav a:hover,
   margin-bottom: 3rem;
 }
 
-@media only screen and (max-width: 740px) {
-  .head-banner {
-    margin: 0;
-  }
-  nav {
-    margin-left: 1rem;
-  }
-  .hide-tablet {
-    display: none;
-  }
-  h1.site-logo {
-    margin: 0 0 0 .5rem !important;
-  }
-}
+/* Hide mobile button on larger screens */
+@media screen and (min-width: 37.5em) {
+	.menu-toggle {
+		display: none;
+	}
 
-@media only screen and (max-width: 640px) {
-  .hide-mobile {
-    display: none;
+/* Small menu. */
+  .menu-toggle,
+  .main-navigation.toggled ul {
+  	display: block;
   }
-}
 
 nav.navigation.posts-navigation {
   margin: 0;
