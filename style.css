@@ -1160,6 +1160,7 @@ nav a:hover,
 .current-menu-item {
   text-decoration: underline;
   text-decoration-style: dotted;
+  text-decoration-thickness: .15rem;
 }
 
 .nav {
