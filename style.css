@@ -988,6 +988,8 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover,
+input#submit:hover,
+.search-submit:hover,
 .wp-block-button__link:active,
 .wp-block-button__link:focus,
 .wp-block-button__link:hover {
