@@ -994,7 +994,8 @@ input#submit:hover,
 .wp-block-button__link:focus,
 .wp-block-button__link:hover {
 	background: none;
-  color: var(--bg);
+  border: 3px solid var(--accent);
+  color: var(--accent);
 }
 
 button:active,
