@@ -90,6 +90,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
    max-width: 1240px;
    position: relative;
    display: flex;
+   justify-content: space-between;
    white-space: nowrap;
    overflow: hidden;
    padding-top: 1rem;
@@ -1192,6 +1193,7 @@ nav a:hover,
     background: var(--bg);
     border: 2px solid var(--text);
     text-align: left;
+    right: 1rem;
   }
 }
 
