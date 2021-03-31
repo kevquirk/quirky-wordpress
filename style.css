@@ -1426,6 +1426,12 @@ h1.site-logo a:hover {
   }
 }
 
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+}
+
 /*--------------------------------------------------------------
 # Utilities
 --------------------------------------------------------------*/
