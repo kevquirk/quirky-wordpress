@@ -86,7 +86,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 
  .head-banner {
-   margin: 0 auto;
+   margin: 0 1rem;
    max-width: 1240px;
    position: relative;
    display: flex;
