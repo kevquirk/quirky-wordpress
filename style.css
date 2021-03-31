@@ -481,21 +481,6 @@ textarea {
 	width: 60%;
 }
 
-input#submit {
-  border: none;
-  border-radius: 5px;
-  background: var(--accent);
-  font-size: 1rem;
-  color: var(--bg);
-  padding: .75rem .9rem;
-  margin: .5rem 0;
-  transition: all .4s ease-in-out;
-}
-
-input#submit:hover {
-  background: var(--text);
-}
-
 input#email,
 input.search {
   font-size: 1rem;
@@ -984,6 +969,8 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"],
+input#submit,
+.search-submit,
 .wp-block-button__link,
 .wp-block-button__link:visited {
   font-size: 1.1rem;
