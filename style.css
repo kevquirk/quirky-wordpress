@@ -101,6 +101,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  #page { /* Default content div */
  	background: var(--bg);
   max-width: 1240px;
+  margin: 0 auto;
  }
 
  body {
@@ -111,7 +112,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
  .site-main {
    max-width: 65ch;
-   margin: 0 auto;
  	 padding: 0 .5rem;
  }
 
