@@ -1179,7 +1179,6 @@ nav a:hover,
     box-sizing: border-box;
     display: block;
     width: 100%;
-    border-top: 1px solid #333;
   }
 
   /* Toggle Show/Hide Menu */
@@ -1191,6 +1190,7 @@ nav a:hover,
     display: block;
     position: fixed;
     background: var(--bg);
+    border: 2px solid var(--text);
   }
 }
 
