@@ -1191,6 +1191,7 @@ nav a:hover,
     position: fixed;
     background: var(--bg);
     border: 2px solid var(--text);
+    text-align: left;
   }
 }
 
