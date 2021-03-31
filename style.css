@@ -86,7 +86,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 
  .head-banner {
-   margin: 0 1rem;
+   margin: 0 auto;
    max-width: 1240px;
    position: relative;
    display: flex;
@@ -1173,6 +1173,10 @@ nav a:hover,
   #site-navigation label {
     display: inline-block;
     color: var(--text);
+  }
+
+  .head-banner {
+    margin: 0 1rem;
   }
 
   /* Break down menu items into vertical */
