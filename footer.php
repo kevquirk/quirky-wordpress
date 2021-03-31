@@ -17,8 +17,11 @@
 			<div class="footer-left">
 				<?php dynamic_sidebar( 'footer_area_one' ); ?>
 			</div>
-			<div class="footer-right">
+			<div class="footer-middle">
 				<?php dynamic_sidebar( 'footer_area_two' ); ?>
+			</div>
+			<div class="footer-right">
+				<?php dynamic_sidebar( 'footer_area_three' ); ?>
 			</div>
 		</div>
 
