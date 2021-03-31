@@ -31,7 +31,7 @@
 
 <header id="masthead">
 	<div class="head-banner">
-		<h1 class="site-logo"><a href="/">🚀 kq</a></h1>
+		<h1 class="site-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 		<div class="nav">
 			<nav id="site-navigation" class="main-navigation">
 				<?php
