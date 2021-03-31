@@ -1433,6 +1433,7 @@ h1.site-logo a:hover {
 .footer-links {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: .5rem;
 }
 
 .footer-area ul {
