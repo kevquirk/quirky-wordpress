@@ -980,8 +980,6 @@ input#submit,
 	color: var(--bg);
 	padding: 0.75rem 1rem;
   text-decoration: none;
-  border: none !important;
-  transition: .4s;
 }
 
 button:hover,
