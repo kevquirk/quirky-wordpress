@@ -1415,14 +1415,16 @@ h1.site-logo a:hover {
 .widget-area {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1rem;
   max-width: 1240px;
   margin: 0 auto;
   text-align: left;
   font-size: 1.1rem;
   margin-bottom: 3rem;
+  padding: 0 1rem;
 }
 
-@media only screen and (max-width: 581px) {
+@media only screen and (max-width: 841px) {
   .widget-area {
     grid-template-columns: repeat(1, 1fr);
   }
