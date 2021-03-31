@@ -1406,8 +1406,6 @@ h1.site-logo a:hover {
     padding: 1rem 0;
     text-align: center;
     margin-top: 3rem;
-    display: flex;
-    justify-content: center;
 }
 
 .site-footer p {
@@ -1415,11 +1413,14 @@ h1.site-logo a:hover {
 }
 
 .widget-area {
+  display: flex;
+  justify-content: center;
+}
+
+.widgets {
   display: grid;
   grid-template-columns: repeat(auto-fit minmax(400px, 1fr));
   width: 1200px;
-  margin: 0 auto;
-  text-align: left;
 }
 
 .footer-widget {

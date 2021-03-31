@@ -14,14 +14,16 @@
 	<footer id="colophon" class="site-footer">
 
 		<div class="widget-area">
-			<div class="footer-widget footer-left">
-				<?php dynamic_sidebar( 'footer_area_one' ); ?>
-			</div>
-			<div class="footer-widget footer-middle">
-				<?php dynamic_sidebar( 'footer_area_two' ); ?>
-			</div>
-			<div class="footer-widget footer-right">
-				<?php dynamic_sidebar( 'footer_area_three' ); ?>
+			<div class="widgets">
+				<div class="footer-widget footer-left">
+					<?php dynamic_sidebar( 'footer_area_one' ); ?>
+				</div>
+				<div class="footer-widget footer-middle">
+					<?php dynamic_sidebar( 'footer_area_two' ); ?>
+				</div>
+				<div class="footer-widget footer-right">
+					<?php dynamic_sidebar( 'footer_area_three' ); ?>
+				</div>
 			</div>
 		</div>
 
