@@ -1170,9 +1170,33 @@ nav a:hover,
 /* Mobile menu */
 
 /* Hide Hamburger */
-#site-navigation label, #hamburger { display: none; }
+#site-navigation label, #hamburger {
+  display: none;
+}
 
-@media only screen and (max-width: 740px) {
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px){
+  /* Show Hamburger Icon */
+  #site-navigation label {
+    display: inline-block; 
+    color: white;
+    background: #a02620;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  /* Break down menu items into vertical */
+  #navitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+
+  /* Toggle Show/Hide Menu */
+  #navitems { display: none; }
+  #site-navigation input:checked ~ #navitems { display: block; }
 }
 
 nav.navigation.posts-navigation {
