@@ -94,7 +94,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
    background: var(--header);
    position: relative;
    display: flex;
-   height: 4rem;
    white-space: nowrap;
    overflow: hidden;
  }
@@ -1178,9 +1177,8 @@ nav a:hover,
 @media screen and (max-width: 768px){
   /* Show Hamburger Icon */
   #site-navigation label {
-    display: inline-block; 
+    display: inline-block;
     color: white;
-    background: #a02620;
     font-style: normal;
     font-size: 1.2em;
     padding: 10px;
