@@ -1418,6 +1418,7 @@ h1.site-logo a:hover {
   max-width: 1240px;
   margin: 0 auto;
   text-align: left;
+  font-size: 1.1rem;
 }
 
 @media only screen and (max-width: 581px) {
@@ -1429,6 +1430,15 @@ h1.site-logo a:hover {
 .footer-links {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-area ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-area li {
+  margin-bottom: .5rem;
 }
 
 /*--------------------------------------------------------------
