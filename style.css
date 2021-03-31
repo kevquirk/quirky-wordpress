@@ -1174,6 +1174,10 @@ nav a:hover,
     color: var(--text);
   }
 
+  nav {
+    padding-top: 0;
+  }
+
   /* Break down menu items into vertical */
   #navitems a {
     box-sizing: border-box;
@@ -1193,7 +1197,13 @@ nav a:hover,
     border: 2px solid var(--text);
     text-align: left;
     right: 1rem;
+    font-size: 1.25rem;
+    padding: .5rem;
   }
+
+  #site-navigation input:checked ~ #navitems a {
+    padding: .25rem .5rem;
+}
 }
 
 nav.navigation.posts-navigation {
