@@ -256,16 +256,6 @@ function register_widget_areas() {
     'after_title'   => '</h4>',
   ));
 
-	register_sidebar( array(
-    'name'          => 'Footer area three',
-    'id'            => 'footer_area_three',
-    'description'   => 'This widget area discription',
-    'before_widget' => '<section class="footer-area footer-area-three">',
-    'after_widget'  => '</section>',
-    'before_title'  => '<h4>',
-    'after_title'   => '</h4>',
-  ));
-
 }
 
 add_action( 'widgets_init', 'register_widget_areas' );

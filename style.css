@@ -1420,6 +1420,12 @@ h1.site-logo a:hover {
   text-align: left;
 }
 
+@media only screen and (max-width: 581px) {
+  .widget-area {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 /*--------------------------------------------------------------
 # Utilities
 --------------------------------------------------------------*/
