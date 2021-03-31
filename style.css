@@ -1417,6 +1417,7 @@ h1.site-logo a:hover {
   grid-template-columns: repeat(3, 1fr);
   max-width: 1240px;
   margin: 0 auto;
+  text-align: left;
 }
 
 /*--------------------------------------------------------------
