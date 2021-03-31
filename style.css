@@ -993,7 +993,7 @@ input#submit:hover,
 .wp-block-button__link:active,
 .wp-block-button__link:focus,
 .wp-block-button__link:hover {
-	background: var(--none);
+	background: none;
   color: var(--bg);
 }
 
