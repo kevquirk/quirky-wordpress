@@ -102,6 +102,17 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
    background: var(--bg);
  }
 
+ #masthead {
+   background: var(--header);
+   color: var(--header-text);
+   height: 5rem;
+ }
+
+ #masthead a,
+ #masthead label {
+   color: var(--header-text);
+ }
+
  .site-main {
    max-width: 65ch;
  	 padding: 0 .5rem;
@@ -1182,6 +1193,7 @@ nav a:hover,
 
   /* Break down menu items into vertical */
   #navitems a {
+    color: var(--text);
     box-sizing: border-box;
     display: block;
     width: 100%;
