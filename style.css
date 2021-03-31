@@ -976,7 +976,7 @@ input#submit,
   font-size: 1.1rem;
 	border-radius: 4px;
 	background: var(--accent);
-  border: 3px solid var(--accent);
+  border: 2px solid var(--accent);
 	color: var(--bg);
 	padding: 0.75rem 1rem;
   text-decoration: none;
@@ -992,7 +992,7 @@ input#submit:hover,
 .wp-block-button__link:focus,
 .wp-block-button__link:hover {
 	background: none;
-  border: 3px solid var(--accent);
+  border: 2px solid var(--accent);
   color: var(--accent);
 }
 
