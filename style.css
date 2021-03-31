@@ -962,8 +962,6 @@ p.feature-credit a:visited,
 .response a {
   color: var(--accent);
   text-decoration-thickness: .15rem;
-  text-decoration-color: var(--underline);
-  transition: .4s;
 }
 
 a:hover,
@@ -977,7 +975,7 @@ p.feature-credit a:active,
 .menu-items a:hover,
 .menu-items a:active,
 .response a:hover {
-	text-decoration-color: var(--accent);
+	text-decoration-style: dotted;
 }
 
 /* Forms
@@ -1432,14 +1430,16 @@ h1.site-logo a:hover {
 }
 
 .site-footer {
-    border-top: 1px solid var(--border);
+    background: var(--header);
+    color: var(--header-text);
     padding: 1rem 0;
     text-align: center;
     margin-top: 3rem;
+    font-size: 1rem;
 }
 
-.site-footer p {
-  font-size: 1rem;
+.site-footer a {
+  color: var(--header-text);
 }
 
 .widget-area {
