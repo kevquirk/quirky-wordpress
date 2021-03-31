@@ -12,6 +12,19 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
+
+		<div class="footer-left">
+
+			<?php dynamic_sidebar( 'footer_area_one' ); ?>
+
+		</div>
+
+		<div class="footer-right">
+
+			<?php dynamic_sidebar( 'footer_area_one' ); ?>
+
+		</div>
+
 			<p>All work licensed under <b>CC BY-SA 4.0</b> unless otherwise stated.<br>
 
 			<a href="https://kevq.uk/disclaimer">Disclaimer</a> | <a href="https://kevq.uk/license-information">License Info</a> | <a href="https://kevq.uk/privacy">Privacy</a> | <a href="https://kevq.uk/buy-me-a-coffee">Coffee</a> | <a href="https://kevq.uk/rss-feeds">RSS</a><br>
