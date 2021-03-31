@@ -21,7 +21,7 @@
 
 		<div class="footer-right">
 
-			<?php dynamic_sidebar( 'footer_area_one' ); ?>
+			<?php dynamic_sidebar( 'footer_area_two' ); ?>
 
 		</div>
 
