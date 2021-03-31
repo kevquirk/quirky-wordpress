@@ -1173,12 +1173,6 @@ nav a:hover,
 #site-navigation label, #hamburger { display: none; }
 
 @media only screen and (max-width: 740px) {
-  nav {
-    margin-left: 1rem;
-  }
-  h1.site-logo {
-    margin: 0 0 0 .5rem !important;
-  }
 }
 
 nav.navigation.posts-navigation {
