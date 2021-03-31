@@ -13,16 +13,13 @@
 
 	<footer id="colophon" class="site-footer">
 
-		<div class="footer-left">
-
-			<?php dynamic_sidebar( 'footer_area_one' ); ?>
-
-		</div>
-
-		<div class="footer-right">
-
-			<?php dynamic_sidebar( 'footer_area_two' ); ?>
-
+		<div class="widget-area">
+			<div class="footer-left">
+				<?php dynamic_sidebar( 'footer_area_one' ); ?>
+			</div>
+			<div class="footer-right">
+				<?php dynamic_sidebar( 'footer_area_two' ); ?>
+			</div>
 		</div>
 
 			<p>All work licensed under <b>CC BY-SA 4.0</b> unless otherwise stated.<br>

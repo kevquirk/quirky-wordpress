@@ -1409,6 +1409,11 @@ h1.site-logo a:hover {
   font-size: 1rem;
 }
 
+.widget-area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 /*--------------------------------------------------------------
 # Utilities
 --------------------------------------------------------------*/
