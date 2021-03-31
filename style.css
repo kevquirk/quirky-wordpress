@@ -100,16 +100,18 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
  #page { /* Default content div */
  	background: var(--bg);
-  margin: 0 auto;
-	max-width: 45rem;
-	padding: 0 .5rem;
  }
 
  body {
    font-size: 1.25rem;
    line-height: 1.5;
    background: var(--bg);
+ }
 
+ .site-main {
+   max-width: 65ch;
+   margin: 0 auto;
+ 	 padding: 0 .5rem;
  }
 
  /* Define colours for auto dark mode */
