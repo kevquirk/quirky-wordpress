@@ -1159,8 +1159,7 @@ nav a:focus {
 nav a:hover,
 .current-menu-item {
   text-decoration: underline;
-  text-decoration-color: var(--underline) !important;
-  text-decoration-thickness: .15rem;
+  text-decoration-style: dotted;
 }
 
 .nav {
