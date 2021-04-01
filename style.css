@@ -523,7 +523,7 @@ input {
 }
 
 .subscribe-form a {
-  color: var(--text);
+  color: var(--text) !important;
 }
 
 .subscribe-form a[href*="//"]::after {
