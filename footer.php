@@ -32,7 +32,7 @@
 					<p><a taget="blank" href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Orange Team</span></a></p>
 				</div>
 
-			<p><a class="top-link" href="#top">Back to top ^</a></p>
+			<p><a class="top-link" href="#top">Back to top</a></p>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
