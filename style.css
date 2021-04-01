@@ -1109,6 +1109,10 @@ nav a:hover,
   padding: 0 .5rem;
 }
 
+.post-nav-links-next {
+  text-align: right;
+}
+
 .page-numbers.current {
   color: var(--meta);
   text-decoration: underline;
