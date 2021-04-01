@@ -22,6 +22,10 @@
 			</div>
 		</div>
 
+		<div class="footer-three">
+			<?php dynamic_sidebar( 'footer_area_three' ); ?>
+		</div>
+
 			<p>All work licensed under <b>CC BY-SA 4.0</b> unless otherwise stated.<br>
 
 			<p><a target="blank" href="https://512kb.club"><img alt="512 Club orange team banner" src="/wp-content/themes/quirky/images/orange-team.svg" /></a></p>
