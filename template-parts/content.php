@@ -18,9 +18,11 @@
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
-		if ( is_home() or is_front_page() or is_category() ) :
-  		the_excerpt( '<p class="post-excerpt">', '</p>' );
-		endif;
+		if ( is_home() or is_front_page() or is_category() ) : ?>
+			<div class="post-excerpt">
+  			<?php the_excerpt(); ?>
+			</div>
+		<?php endif;
 
 		if ( 'post' === get_post_type() ) :
 			?>
