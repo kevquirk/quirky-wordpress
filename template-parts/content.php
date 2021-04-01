@@ -20,7 +20,7 @@
 
 		if ( is_home() or is_front_page() or is_category() ) : ?>
 			<div class="post-excerpt">
-  			<b>TL;DR: </b><?php the_excerpt(); ?>
+  			<p><b>TL;DR: </b><?php the_excerpt(); ?></p>
 			</div>
 		<?php endif;
 
