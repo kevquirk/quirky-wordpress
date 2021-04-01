@@ -108,6 +108,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
    height: 4.5rem;
  }
 
+ #masthead h1 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
  #masthead a {
    color: var(--header-text);
  }
@@ -1125,7 +1130,7 @@ textarea {
 nav {
   text-align: center;
   font-size: 1.1rem;
-  padding-top: .75rem;
+  line-height: 2.2;
 }
 
 nav ul {
