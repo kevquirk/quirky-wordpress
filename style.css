@@ -1111,6 +1111,18 @@ nav a:hover,
   margin: 4rem 0;
 }
 
+#post-nav-links a {
+  color: var(--text);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#post-nav-links a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: .15rem;
+  text-decoration-style: dotted;
+}
+
 .post-nav-links-next {
   text-align: right;
 }
