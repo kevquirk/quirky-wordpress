@@ -1501,7 +1501,8 @@ footer .search-submit:hover {
 }
 
 .footer-base {
-  margin-top: 3rem;
+  margin-top: 5rem;
+  border-top: 2px solid #666;
 }
 
 .widget-area .search-field {
