@@ -174,8 +174,8 @@ function get_the_post_navigation( $args = array() ) {
     $args = wp_parse_args(
         $args,
         array(
-            'prev_text'          => '&laquo; %title',
-            'next_text'          => '%title &raquo;',
+            'prev_text'          => '%title',
+            'next_text'          => '%title',
             'in_same_term'       => false,
             'excluded_terms'     => '',
             'taxonomy'           => 'category',
@@ -188,7 +188,7 @@ function get_the_post_navigation( $args = array() ) {
     $navigation = '';
 
     $previous = get_previous_post_link(
-        '<div class="nav-previous">%link</div>',
+        '<div class="nav-previous">&laquo; %link</div>',
         $args['prev_text'],
         $args['in_same_term'],
         $args['excluded_terms'],
@@ -196,7 +196,7 @@ function get_the_post_navigation( $args = array() ) {
     );
 
     $next = get_next_post_link(
-        '<div class="nav-next">%link</div>',
+        '<div class="nav-next">%link &raquo;</div>',
         $args['next_text'],
         $args['in_same_term'],
         $args['excluded_terms'],
