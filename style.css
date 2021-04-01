@@ -105,7 +105,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  #masthead {
    background: var(--header);
    color: var(--header-text);
-   height: 4.5rem;
+   height: 4rem;
  }
 
  #masthead h1 {
