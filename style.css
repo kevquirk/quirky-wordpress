@@ -927,6 +927,17 @@ p.feature-credit a:active,
 	text-decoration-style: dotted;
 }
 
+.top-link a {
+  text-decoration: none;
+  padding: .5rem .75rem;
+  border: 2px solid #FAFAFA;
+}
+
+.top-link a:hover {
+  background: #FAFAFA;
+  color: #212121;
+}
+
 /* Forms
 --------------------------------------------- */
 button,
