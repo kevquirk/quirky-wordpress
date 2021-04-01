@@ -1107,7 +1107,7 @@ nav a:hover,
   grid-column-gap: .5rem;
   justify-content: center;
   max-width: 1240px;
-  padding: 3rem 0;
+  padding: 3rem 1rem;
   border-top: 3px solid var(--text);
   border-bottom: 3px solid var(--text);
   margin: 4rem auto;
