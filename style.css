@@ -59,13 +59,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
      --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
      --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
     --accent: #0D47A1;
-    --accent-light: #E3F2FD;
     --bg: #FAFAFA;
-    --accent-bg: #F5F7FF;
+    --accent-bg: rgba(0, 0, 0, .075);
     --text: #212121;
-    --underline: #90CAF9;
     --meta: #585858;
-    --border: lightgrey;
+    --border: #212121;
     --code: #D81B60;
     --pre: #D0D0D0;
     --pre-bg: #1A1A1A;
@@ -130,9 +128,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
       --accent: #FFB300;
       --accent-light: #000;
       --bg: #212121;
-      --accent-bg: #2B2B2B;
       --text: #DCDCDC;
-      --underline: #ffd87d;
+      --border: #1a1a1a;
       --meta: #ABABAB;
       --code: #F06292;
       --input-bg: #333;
