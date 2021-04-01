@@ -1112,6 +1112,11 @@ nav a:hover,
 
 .post-nav-links-next {
   text-align: right;
+  max-width: 50%
+}
+
+.post-nav-links-previous {
+  max-width: 50%
 }
 
 .page-numbers.current {
