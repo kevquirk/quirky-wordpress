@@ -1105,10 +1105,10 @@ nav a:hover,
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: .5rem;
-  padding: 2rem 0;
+  padding: 3rem 0;
   border-top: 3px solid var(--text);
   border-bottom: 3px solid var(--text);
-  margin: 2rem 0;
+  margin: 4rem 0;
 }
 
 .post-nav-links-next {
