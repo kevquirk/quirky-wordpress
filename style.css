@@ -1437,6 +1437,10 @@ h1.site-logo a:hover {
   color: var(--header-text);
 }
 
+footer .search-form {
+  width: 50%
+}
+
 .widget-area {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1453,11 +1457,13 @@ h1.site-logo a:hover {
   .widget-area {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  footer .search-form {
+    width: 100%
+  }
 }
 
-.widget-area .search-form {
-  margin: 2rem 0;
-}
+
 
 .widget-area .search-field {
   width: 75%;
