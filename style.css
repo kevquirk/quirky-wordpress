@@ -1456,9 +1456,8 @@ footer .search-submit:hover {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .post-nav-links-next,
-  .post-nav-links-previous {
-    margin: 2rem 0;
+  .post-nav-links-next {
+    margin-top: 2rem;
   }
 
   footer .search-form {
