@@ -526,39 +526,10 @@ input {
   font-size: 1.1rem;
 }
 
-/* Banner on newsletter page */
-.newsletter-banner {
- width: 100vw;
- position: relative;
- top: -2rem;
- text-align: center;
- background: var(--accent);
- color: var(--bg);
- left: 50%;
- right: 50%;
- margin-left: -50vw;
- margin-right: -50vw;
- padding: 2rem 0 2rem 0;
-}
-
-.newsletter-banner h1 {
-  margin: 0;
-  padding: 0 .5rem;
-}
-
-.newsletter-banner p {
-  padding: 0 .5rem;
-}
-
-.newsletter-banner a {
-  color: var(--bg) !important;
-  text-decoration: none;
-}
-
 /* Format the blogroll banners */
 .blogroll-banner {
   background: var(--accent-bg);
-  border: 3px solid var(--accent);
+  border: 3px solid var(--text);
   margin: 2rem 0;
   padding: .5rem;
 }
@@ -598,29 +569,6 @@ input {
 
 .blogroll-banner p {
   color: var(--meta);
-}
-
-/* Change header on newsletter page 4390 is staging, 2469 is live */
-.page-id-4390 h1.entry-title,
-.page-id-2469 h1.entry-title {
-  display: none;
-}
-
-.page-id-4390 #masthead,
-.page-id-4390 .head-banner,
-.page-id-2469 #masthead,
-.page-id-2469 .head-banner {
-  background: var(--accent);
-}
-
-@media (prefers-color-scheme: dark) {
-  .page-id-4390 .head-banner a,
-  .page-id-2469 .head-banner a,
-  .page-id-4390 .head-banner nav a,
-  .page-id-2469 .head-banner nav a,
-  .site-logo a {
-    color: var(--bg);
-  }
 }
 
 /**
@@ -715,10 +663,6 @@ h1.site-title {
     line-height: 1.2;
 }
 
-.site-title a:hover {
-  color: var(--accent);
-}
-
 h2.entry-title {
   font-size: 1.5rem;
   font-weight: bold;
@@ -802,7 +746,7 @@ i {
 blockquote {
   margin: 2rem 0 2rem 1rem;
 	padding: .4rem .8rem;
-	border-left: .35rem solid var(--accent);
+	border-left: 3px solid var(--text);
 	color: var(--meta);
 	font-style: italic;
 }
@@ -988,7 +932,7 @@ input#submit:hover,
 .wp-block-button__link:hover {
 	background: none;
   border: 3px solid var(--text);
-  color: var(--accent);
+  color: var(--text);
 }
 
 button:active,
