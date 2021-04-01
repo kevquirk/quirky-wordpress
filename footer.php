@@ -26,13 +26,15 @@
 			<?php dynamic_sidebar( 'footer_area_three' ); ?>
 		</div>
 
-			<p>All work licensed under <b>CC BY-SA 4.0</b> unless otherwise stated.<br>
+			<div class="footer-base">
+				<p>All work licensed under <b>CC BY-SA 4.0</b> unless otherwise stated.<br>
 
-				<div class="kb-club">
-					<p><a taget="blank" href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Orange Team</span></a></p>
-				</div>
+					<div class="kb-club">
+						<p><a taget="blank" href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Orange Team</span></a></p>
+					</div>
 
-			<p><a class="top-link" href="#top">Back to top</a></p>
+				<p><a class="top-link" href="#top">Back to top</a></p>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

@@ -1500,7 +1500,9 @@ footer .search-submit:hover {
   }
 }
 
-
+.footer-base {
+  margin-top: 3rem;
+}
 
 .widget-area .search-field {
   width: 75%;
