@@ -531,6 +531,16 @@ input {
     margin-left: 4px;
 }
 
+@media only screen and (max-width: 700px) {
+  .mini-subscribe input#email,
+  .mini-subscribe input#submit,
+  .subscribe-form input#email,
+  .subscribe-form input#submit {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 /* Format the blogroll banners */
 .blogroll-banner {
   background: var(--accent-bg);
