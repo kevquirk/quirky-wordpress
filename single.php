@@ -36,17 +36,7 @@ get_header();
 			  </form>
 			</div>
 
-			<hr>
-			<!-- Adds previous & next post links -->
-			<div id="post-links">
-				<p class="alignleft">
-					<?php previous_post_link('&laquo; %link'); ?>
-				</p>
-				<p class="alignright">
-						<?php next_post_link('%link &raquo;'); ?>
-				</p>
-			</div>
-			<div style="clear: both;"></div>
+
 
 			<hr>
 
