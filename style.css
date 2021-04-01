@@ -1104,6 +1104,7 @@ nav a:hover,
 .post-nav-links {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1rem;
   padding: 2rem .5rem;
   border-top: 3px solid var(--text);
   border-bottom: 3px solid var(--text);
