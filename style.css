@@ -539,6 +539,11 @@ input {
     width: 100%;
     max-width: 100%;
   }
+
+  .mini-subscribe input#submit,
+  .subscribe-form input#submit {
+    margin-top: .5rem;
+  }
 }
 
 /* Format the blogroll banners */
