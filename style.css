@@ -979,12 +979,12 @@ input#submit,
 .search-submit,
 .wp-block-button__link,
 .wp-block-button__link:visited {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 	border-radius: 4px;
 	background: var(--accent);
   border: 2px solid var(--accent);
 	color: var(--bg);
-	padding: 0.75rem 1rem;
+	padding: 0.6rem 1rem;
   text-decoration: none;
 }
 
