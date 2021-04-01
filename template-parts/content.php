@@ -26,7 +26,6 @@
 				nineteen_quirky_posted_on();
 				?>
 			</div><!-- .entry-meta -->
-			<?php the_excerpt(); ?>
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
@@ -36,6 +35,7 @@
 		<?php
 		if ( is_home() or is_front_page() or is_category() ) :
 			get_the_title();
+			the_excerpt();
 		else:
 		the_content(
 			sprintf(
