@@ -1105,6 +1105,7 @@ nav a:hover,
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 1rem;
+  max-width: 50%;
   margin: 0 auto;
   padding: 0 .5rem;
 }
