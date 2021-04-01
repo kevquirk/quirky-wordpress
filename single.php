@@ -30,7 +30,7 @@ get_header();
 			  <form action="https://newsletter.kevq.uk/subscribe" method="POST" accept-charset="utf-8">
 				<label for="email" class="visuallyhidden">Email</label>
 				<input type="email" placeholder="jane@example.com" name="email" id="email"/>
-				<input type="hidden" name="list" value="IHoM4A4bdjmF8zo9CNJIvQ"/><br>
+				<input type="hidden" name="list" value="IHoM4A4bdjmF8zo9CNJIvQ"/>
 				<input type="hidden" name="subform" value="yes"/>
 				<input type="submit" name="submit" value="Subscribe!" id="submit"/>
 			  </form>
