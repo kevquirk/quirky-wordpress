@@ -28,7 +28,9 @@
 
 			<p>All work licensed under <b>CC BY-SA 4.0</b> unless otherwise stated.<br>
 
-			<p><a target="blank" href="https://512kb.club"><img alt="512 Club orange team banner" src="/wp-content/themes/quirky/images/orange-team.svg" /></a></p>
+				<div class="kb-club">
+					<p><a taget="blank" href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Orange Team</span></a></p>
+				</div>
 
 			<p><a class="top-link" href="#top">^ TOP ^</a></p>
 	</footer><!-- #colophon -->

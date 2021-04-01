@@ -1661,6 +1661,34 @@ p.has-background {
   }
 }
 
+/* Format 512kb blub banner in footer */
+
+.kb-club {
+	margin-top: 1.5rem;
+}
+
+.kb-club a {
+	text-decoration: none;
+	padding: .5rem 0;
+}
+
+.kb-club a:hover {
+  background: #FFE082;
+	color: #212121;
+}
+
+.kb-club-no-bg {
+	border: 2px solid #FFE082;
+	padding: .5rem 1rem;
+}
+
+.kb-club-bg {
+	background: #FFE082;
+	border: 2px solid #FFE082;
+	color: #212121;
+	padding: .5rem 1rem;
+}
+
 /**** 100 Days Banner ****/
 
 .hundred-days,
