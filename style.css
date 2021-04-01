@@ -1507,6 +1507,10 @@ footer .search-submit:hover {
 	margin-bottom: 1.5em;
 }
 
+.clear{
+  clear: both;
+}
+
 .aligncenter {
 	clear: both;
 	display: block;

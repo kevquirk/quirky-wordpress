@@ -11,7 +11,7 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
+	<footer id="colophon" class="site-footer clear">
 
 		<div class="widget-area">
 			<div class="footer-left">
