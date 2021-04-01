@@ -27,7 +27,7 @@
 		</div>
 
 			<div class="footer-base">
-				<p>All work licensed under <b>CC BY-SA 4.0</b> unless otherwise stated.<br>
+				<br><p>All work licensed under <b>CC BY-SA 4.0</b> unless otherwise stated.<br>
 
 					<div class="kb-club">
 						<p><a taget="blank" href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Orange Team</span></a></p>
