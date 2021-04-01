@@ -36,7 +36,6 @@ get_header();
 			  </form>
 			</div>
 
-			<hr>
 			<!-- Adds previous & next post links -->
 			<div id="post-nav-links">
 				<div class="post-nav-links-previous">
@@ -48,8 +47,6 @@ get_header();
 							<?php next_post_link('%link'); ?>
 				</div>
 			</div>
-
-			<hr>
 
 			<div class="guestbook-notice">
 				<h2>💬 Looking for comments?</h2>
