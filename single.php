@@ -36,27 +36,6 @@ get_header();
 			  </form>
 			</div>
 
-			<!-- Adds previous & next post links -->
-			<div id="post-nav-links">
-				<div class="post-nav-links-previous">
-					<svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M20 13v-2H8l4-4-1-2-7 7 7 7 1-2-4-4z" fill="currentColor"></path></svg> The one before<br>
-						<?php previous_post_link('%link'); ?>
-				</div>
-				<div class="post-nav-links-next">
-					Up next <svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="m4 13v-2h12l-4-4 1-2 7 7-7 7-1-2 4-4z" fill="currentColor"></path></svg><br>
-							<?php next_post_link('%link'); ?>
-				</div>
-			</div>
-
-			<div class="guestbook-notice">
-				<h2>💬 Looking for comments?</h2>
-
-				<p>I don't have comments on this site as they're difficult to manage and take up too much time. I'd rather concentrate on producing content than managing comments.</p>
-
-				<p>Instead of leaving a comment, you could 📝 <a href="/guestbook">sign my guestbook</a> or ✉️ <a href="/contact">contact me</a> instead.
-			</div>
-
-
 			<?php
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) :
@@ -67,6 +46,18 @@ get_header();
 		?>
 
 	</main><!-- #main -->
+
+	<!-- Adds previous & next post links -->
+	<div id="post-nav-links">
+		<div class="post-nav-links-previous">
+			<svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M20 13v-2H8l4-4-1-2-7 7 7 7 1-2-4-4z" fill="currentColor"></path></svg> The one before<br>
+				<?php previous_post_link('%link'); ?>
+		</div>
+		<div class="post-nav-links-next">
+			Up next <svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="m4 13v-2h12l-4-4 1-2 7 7-7 7-1-2 4-4z" fill="currentColor"></path></svg><br>
+					<?php next_post_link('%link'); ?>
+		</div>
+	</div>
 
 <?php
 get_footer();
