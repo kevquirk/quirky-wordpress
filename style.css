@@ -493,6 +493,7 @@ input.search {
   background: var(--input-bg);
   color: var(--text);
   width: 70%;
+  border-radius: 0;
 }
 
 input {
