@@ -1451,7 +1451,8 @@ footer .search-submit:hover {
 }
 
 @media only screen and (max-width: 841px) {
-  .widget-area {
+  .widget-area,
+  #post-nav-links {
     grid-template-columns: repeat(1, 1fr);
   }
 
