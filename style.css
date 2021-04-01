@@ -1907,7 +1907,9 @@ i.gb-moderator {
 /* Remove iOS formatting on inputs */
 textarea,
 select,
-input {
+input,
+input.search-field
+ {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
