@@ -493,7 +493,6 @@ input.search {
   background: var(--input-bg);
   color: var(--text);
   width: 70%;
-  border-radius: 0;
 }
 
 input {
@@ -501,6 +500,7 @@ input {
   -moz-appearance: none;
   appearance: none;
   background: var(--input-bg);
+  border-radius: 0;
 }
 
 .visuallyhidden {
