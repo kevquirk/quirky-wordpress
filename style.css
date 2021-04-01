@@ -1458,6 +1458,7 @@ footer .search-submit {
 
 footer .search-submit:hover {
   background: none;
+  color: #FAFAFA;
 }
 
 .widget-area {
