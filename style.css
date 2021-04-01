@@ -1456,6 +1456,10 @@ footer .search-submit {
   background: #FAFAFA;
 }
 
+footer .search-submit:hover {
+  background: none;
+}
+
 .widget-area {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
