@@ -320,7 +320,6 @@ img {
     border: 3px solid var(--border);
 }
 
-
 img.rotate {
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
@@ -991,7 +990,6 @@ button.outline {
   background: none;
   color: var(--text);
   border: 3px solid var(--text);
-  transition: .4s;
 }
 
 button.outline a,
@@ -1010,7 +1008,6 @@ button.outline:hover {
 	background: var(--text);
 	color: var(--bg);
 	font-weight: bold;
-	transition: 0.4s;
 	line-height: 3rem;
 	white-space: nowrap;
 }
@@ -1295,7 +1292,6 @@ h1.site-logo a:hover {
     padding: 0 .5rem 0 0;
     text-decoration: none;
     color: var(--meta);
-    transition: .4s;
     font-size: .9rem;
 }
 
