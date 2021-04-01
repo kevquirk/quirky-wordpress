@@ -43,9 +43,10 @@ get_header();
 					<?php previous_post_link('&laquo; %link'); ?>
 				</p>
 				<p class="alignright">
-						<?php next_post_link('%link <svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="m4 13v-2h12l-4-4 1-2 7 7-7 7-1-2 4-4z" fill="currentColor"></path></svg>'); ?>
+						<?php next_post_link('%link &raquo;'); ?>
 				</p>
 			</div>
+			<div style="clear: both;"></div>
 
 			<hr>
 
