@@ -1106,12 +1106,11 @@ nav a:hover,
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: .5rem;
   justify-content: center;
-  margin: 0 auto;
   max-width: 1240px;
   padding: 3rem 0;
   border-top: 3px solid var(--text);
   border-bottom: 3px solid var(--text);
-  margin: 4rem 0;
+  margin: 4rem auto;
 }
 
 #post-nav-links a {
