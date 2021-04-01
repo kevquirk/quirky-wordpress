@@ -970,8 +970,8 @@ input#submit,
 .wp-block-button__link,
 .wp-block-button__link:visited {
   font-size: 1.1rem;
-	background: var(--accent);
-  border: 3px solid var(--accent);
+	background: var(--text);
+  border: 3px solid var(--text);
 	color: var(--bg);
 	padding: 0.75rem 1rem;
   text-decoration: none;
@@ -987,7 +987,7 @@ input#submit:hover,
 .wp-block-button__link:focus,
 .wp-block-button__link:hover {
 	background: none;
-  border: 3px solid var(--accent);
+  border: 3px solid var(--text);
   color: var(--accent);
 }
 
@@ -1012,14 +1012,14 @@ button a:visited {
 
 button.outline {
   background: none;
-  color: var(--accent);
-  border: 3px solid var(--accent);
+  color: var(--text);
+  border: 3px solid var(--text);
   transition: .4s;
 }
 
 button.outline a,
 button.outline a:visited {
-  color: var(--accent);
+  color: var(--text);
   background: none;
 }
 
@@ -1030,7 +1030,7 @@ button.outline:hover {
 .button, .button:visited {
 	padding: .8em .8em;
 	margin: 0 .5em 0 0;
-	background: var(--accent);
+	background: var(--text);
 	color: var(--bg);
 	font-weight: bold;
 	transition: 0.4s;
@@ -1209,8 +1209,10 @@ nav.navigation.posts-navigation a {
 }
 
 nav.navigation.posts-navigation a:hover {
-  color: var(--accent);
-  text-decoration: none;
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: .15rem;
 }
 
 /****** Header elements ******/
