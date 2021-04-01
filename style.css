@@ -1442,6 +1442,12 @@ footer .search-form {
   margin: 0 auto;
 }
 
+footer .search-field {
+  border: 2px solid #fafafa;
+  background: #333;
+  color: #fafafa !important;
+}
+
 .widget-area {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
