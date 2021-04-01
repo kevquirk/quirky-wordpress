@@ -26,6 +26,7 @@
 				nineteen_quirky_posted_on();
 				?>
 			</div><!-- .entry-meta -->
+			<?php the_excerpt(); ?>
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
