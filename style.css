@@ -1277,6 +1277,11 @@ h1.site-logo a:hover {
 	margin: 0 0 1.5em;
 }
 
+.post-excerpt {
+  font-size: 1.1rem;
+  color: var(--meta);
+}
+
 /* Meta */
 .entry-footer {
   margin: -1.5rem 0 2rem 0;
