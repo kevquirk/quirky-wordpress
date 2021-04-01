@@ -48,7 +48,6 @@ get_header();
 							<?php next_post_link('%link'); ?>
 				</div>
 			</div>
-			<div style="clear: both;"></div>
 
 			<hr>
 
