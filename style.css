@@ -712,11 +712,16 @@ p {
 	margin-bottom: 1.5em;
 }
 
-.medium,
-.has-medium-font-size {
+.medium {
   font-weight: bold;
   font-size: 1.5rem;
   line-height: 1.3;
+}
+
+.has-medium-font-size {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: lighter;
 }
 
 .small {
