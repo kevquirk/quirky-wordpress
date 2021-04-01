@@ -1451,6 +1451,9 @@ footer .search-field {
 footer .search-submit {
   padding: .6rem 1rem;
   font-size: 1.25rem;
+  color: #212121;
+  border-color: #FAFAFA;
+  background: #FAFAFA;
 }
 
 .widget-area {
