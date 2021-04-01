@@ -1101,10 +1101,10 @@ nav a:hover,
   border-bottom: 3px solid var(--text);
 }
 
-#post-nav-links {
+.post-nav-links {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: .5rem;
+  grid-column-gap: 1rem;
   justify-content: center;
   max-width: 1240px;
   padding: 3rem 1rem;
@@ -1113,13 +1113,13 @@ nav a:hover,
   margin: 4rem auto;
 }
 
-#post-nav-links a {
+.post-nav-links a {
   color: var(--text);
   font-weight: bold;
   text-decoration: none;
 }
 
-#post-nav-links a:hover {
+.post-nav-links a:hover {
   text-decoration: underline;
   text-decoration-thickness: .15rem;
   text-decoration-style: dotted;
@@ -1452,8 +1452,13 @@ footer .search-submit:hover {
 
 @media only screen and (max-width: 841px) {
   .widget-area,
-  #post-nav-links {
+  .post-nav-links {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .post-nav-links-next,
+  .post-nav-links-previous {
+    margin: 2rem 0;
   }
 
   footer .search-form {
