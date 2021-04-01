@@ -69,7 +69,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     --pre-bg: #1A1A1A;
     --input-bg: white;
     --wysiwyg: #eaeeff;
-    --admin-reply: rgba(0, 0, 0, .1);
     --header: #212121;
     --header-text: #fafafa;
 
@@ -134,7 +133,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
       --code: #F06292;
       --input-bg: #333;
       --wysiwyg: #9A9A9A;
-      --admin-reply: #222;
       --header: #1a1a1a;
     }
 
@@ -1936,7 +1934,6 @@ i.gb-moderator {
 
 .gwolle-gb .gb-entry-admin_reply, .gwolle-gb .gb-entry-admin-reply {
 	border-left: .35rem solid var(--text) !important;
-	background: var(--admin-reply) !important;
 	margin-right: .5rem !important;
 }
 
