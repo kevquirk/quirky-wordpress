@@ -927,13 +927,13 @@ p.feature-credit a:active,
 	text-decoration-style: dotted;
 }
 
-.top-link a {
+a.top-link{
   text-decoration: none;
   padding: .5rem .75rem;
   border: 2px solid #FAFAFA;
 }
 
-.top-link a:hover {
+a.top-link:hover {
   background: #FAFAFA;
   color: #212121;
 }
