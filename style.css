@@ -214,7 +214,6 @@ hr {
  pre {
  	font-family: var(--mono-font);
   background: var(--pre-bg) !important;
- 	border-radius: 5px;
  	margin-bottom: 1.6em;
  	max-width: 100%;
  	overflow: auto;
@@ -306,7 +305,6 @@ img {
   max-width: 100%;
   display: block;
   margin: 2rem auto;
-  border-radius: 5px;
   border: 2px solid var(--border);
 }
 
@@ -321,8 +319,7 @@ img {
 .attachment-post-thumbnail {
     width: 100%;
     margin: 1em 0 1.5em 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 4px;
+    border: 3px solid var(--border);
 }
 
 
@@ -488,7 +485,6 @@ input#email,
 input.search {
   font-size: 1rem;
   padding: .7rem;
-  border-radius: 5px;
   border: 2px solid var(--text);
   background: var(--input-bg);
   color: var(--text);
@@ -500,7 +496,7 @@ input {
   -moz-appearance: none;
   appearance: none;
   background: var(--input-bg);
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 
 .visuallyhidden {
@@ -518,7 +514,6 @@ input {
 .subscribe-form {
   background: var(--accent-bg);
   border: 2px solid var(--text);
-  border-radius: 5px;
   padding: 25px;
   margin: 1em 0;
 }
@@ -564,7 +559,6 @@ input {
 .blogroll-banner {
   background: var(--accent-bg);
   border: 2px solid var(--accent);
-  border-radius: 5px;
   margin: 2rem 0;
   padding: .5rem;
 }
@@ -572,7 +566,6 @@ input {
 .blogroll-banner-fav {
   background: #FFF9C4;
   border: 2px solid #FFB300;
-  border-radius: 5px;
   margin: 2rem 0;
   padding: .5rem;
 }
@@ -933,7 +926,6 @@ td {
 
 .wp-block-table table {
     border: 1px solid var(--text) !important;
-    border-radius: 8px;
 }
 
 .wp-block-table.is-style-stripes {
@@ -978,7 +970,6 @@ input#submit,
 .wp-block-button__link,
 .wp-block-button__link:visited {
   font-size: 1.1rem;
-	border-radius: 4px;
 	background: var(--accent);
   border: 2px solid var(--accent);
 	color: var(--bg);
@@ -1040,7 +1031,6 @@ button.outline:hover {
 	padding: .8em .8em;
 	margin: 0 .5em 0 0;
 	background: var(--accent);
-	border-radius: 4px;
 	color: var(--bg);
 	font-weight: bold;
 	transition: 0.4s;
@@ -1085,7 +1075,6 @@ textarea {
 	color: var(--text);
 	border: 2px solid var(--text);
   background: var(--input-bg);
-	border-radius: 3px;
 	padding: .5rem;
 }
 
@@ -1526,7 +1515,6 @@ footer .search-submit:hover {
 
 .screen-reader-text:focus {
   background: var(--border);
-	border-radius: 3px;
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
 	clip: auto !important;
 	clip-path: none;
@@ -1584,7 +1572,6 @@ footer .search-submit:hover {
 /** Custom colours for Gutenberg editor **/
 
 p.has-background {
-  border-radius: 4px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 2em 0;
 }
@@ -1593,7 +1580,6 @@ p.has-background {
 
 .notice,
 .notice-blue {
-  border-radius: 5px;
   border: 2px solid var(--dark-blue);
   background: var(--light-blue);
   color: var(--dark-blue);
@@ -1612,7 +1598,6 @@ p.has-background {
 }
 
 .notice-red {
-  border-radius: 5px;
   border: 2px solid var(--dark-red);
   background: var(--light-red);
   color: var(--dark-red);
@@ -1663,7 +1648,6 @@ p.has-background {
   font-weight: bold;
   padding: 1rem .5rem;
   border: 2px solid var(--text);
-  border-radius: 5px;
   margin: 2rem 0;
 }
 
@@ -1822,7 +1806,6 @@ p.has-background {
     border: 2px solid var(--dark-blue);
     margin: 1em 0;
     color: var(--dark-blue);
-    border-radius: 4px;
     text-align: center;
 }
 
@@ -1857,13 +1840,11 @@ i.gb-moderator {
 	border: 2px solid var(--text) !important;
 	margin-bottom: 1rem !important;
 	background: var(--accent-bg) !important;
-  border-radius: 8px;
 }
 
 .gwolle-gb-write {
 	background: var(--accent-bg) !important;
 	border: 2px solid var(--text) !important;
-  border-radius: 8px;
 	padding: 1rem;
 }
 
