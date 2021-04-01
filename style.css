@@ -1093,6 +1093,21 @@ nav a:hover,
   margin-bottom: 3rem;
 }
 
+.nav-links {
+  font-size: 1.25rem;
+  color: var(--text);
+  border-top: 3px solid var(--text);
+  padding: 2rem 0;
+  border-bottom: 3px solid var(--text);
+}
+
+.page-numbers.current {
+  color: var(--meta);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: .15rem;
+}
+
 /* Mobile menu */
 
 /* Hide Hamburger */
