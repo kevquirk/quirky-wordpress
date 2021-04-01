@@ -483,7 +483,6 @@ textarea {
 
 input#email,
 input.search {
-  font-size: 1rem;
   padding: .7rem;
   border: 3px solid var(--text);
   background: var(--input-bg);
