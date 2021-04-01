@@ -19,7 +19,7 @@
 		endif;
 
 		if ( is_home() or is_front_page() or is_category() ) :
-  		the_excerpt();
+  		the_excerpt( '<p class="post-excerpt">', '</p>' );
 		endif;
 
 		if ( 'post' === get_post_type() ) :
