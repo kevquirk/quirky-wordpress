@@ -1673,18 +1673,18 @@ p.has-background {
 }
 
 .kb-club a:hover {
-  background: #FFB74D;
+  background: #FBC02D;
 	color: #212121;
 }
 
 .kb-club-no-bg {
-	border: 2px solid #FFB74D;
+	border: 2px solid #FBC02D;
 	padding: .5rem 1rem;
 }
 
 .kb-club-bg {
-	background: #FFB74D;
-	border: 2px solid #FFB74D;
+	background: #FBC02D;
+	border: 2px solid #FBC02D;
 	color: #212121;
 	padding: .5rem 1rem;
 }
