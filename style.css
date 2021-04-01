@@ -1105,18 +1105,11 @@ nav a:hover,
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 1rem;
-  max-width: 50%;
-  margin: 0 auto;
   padding: 0 .5rem;
 }
 
 .post-nav-links-next {
   text-align: right;
-  max-width: 50%
-}
-
-.post-nav-links-previous {
-  max-width: 50%
 }
 
 .page-numbers.current {
