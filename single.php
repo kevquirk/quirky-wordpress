@@ -23,9 +23,11 @@ get_header();
 			<div class="subscribe-form">
 				<h2>📰 Cool people get newsletters!</h2>
 
-			  <p>Do you want to be successful, respected and rich? Do you want all your dreams to come true? If so, <del>ignore this box because I’m an idiot and can’t help</del> you need my newsletter! <a class="small" href="/newsletter">More info</a></p>
+				<p class="has-medium-font-size">Have a poorly written technology, privacy and web-centric newsletter delivered straight to your inbox every month!</p>
 
-			  <p><b>⚠️ Warning:</b> Reading my newsletter <b>will not</b> make you successful, respected or rich and is likely to significantly reduce your intelligence. May contain nuts. 🥜</p>
+				<p class="small"><b>⚠️ Warning:</b> Reading my newsletter is likely to significantly reduce your intelligence. May contain nuts. 🥜</p>
+
+				<p class="small"><a target="blank" href="https://metaletter.net">More info</a></p>
 
 			  <form action="https://newsletter.kevq.uk/subscribe" method="POST" accept-charset="utf-8">
 				<label for="email" class="visuallyhidden">Email</label>
