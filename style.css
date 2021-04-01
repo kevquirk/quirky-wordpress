@@ -1101,7 +1101,7 @@ nav a:hover,
   border-bottom: 3px solid var(--text);
 }
 
-.post-nav-links {
+#post-nav-links {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 1rem;
