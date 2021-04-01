@@ -1115,7 +1115,7 @@ nav a:hover,
   color: var(--text);
   font-weight: bold;
   text-decoration: none;
-  padding: .5rem 0;
+  padding: 1rem 0;
 }
 
 #post-nav-links a:hover {
