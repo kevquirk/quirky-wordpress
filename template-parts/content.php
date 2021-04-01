@@ -35,7 +35,6 @@
 		<?php
 		if ( is_home() or is_front_page() or is_category() ) :
 			get_the_title();
-			the_excerpt();
 		else:
 		the_content(
 			sprintf(
@@ -64,4 +63,8 @@
 	<footer class="entry-footer">
 		🏷️ <?php nineteen_quirky_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
+	<?php if ( is_home() or is_front_page() or is_category() ) :
+		the_excerpt();
+	endif;
+	?>
 </article><!-- #post-<?php the_ID(); ?> -->
