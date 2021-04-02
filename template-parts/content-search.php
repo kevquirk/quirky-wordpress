@@ -17,7 +17,7 @@
 		<div class="entry-meta">
 			📅 <?php
 			nineteen_quirky_posted_on();
-			?>  <br>
+			?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
@@ -25,7 +25,7 @@
 	<?php nineteen_quirky_post_thumbnail(); ?>
 
 	<footer class="entry-footer">
-		🏷 <?php nineteen_quirky_entry_footer(); ?>
+		<p>🏷 <?php nineteen_quirky_entry_footer(); ?></p>
 	</footer><!-- .entry-footer -->
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
