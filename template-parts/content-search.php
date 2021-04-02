@@ -15,7 +15,7 @@
 
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php
+			📅 <?php
 			nineteen_quirky_posted_on();
 			?>
 		</div><!-- .entry-meta -->
