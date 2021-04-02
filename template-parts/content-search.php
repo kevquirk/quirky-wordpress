@@ -17,7 +17,7 @@
 		<div class="entry-meta">
 			📅 <?php
 			nineteen_quirky_posted_on();
-			?>
+			?>  <br>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
