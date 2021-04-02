@@ -24,11 +24,10 @@
 
 	<?php nineteen_quirky_post_thumbnail(); ?>
 
-	<div class="entry-summary">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
-
 	<footer class="entry-footer">
 		🏷 <?php nineteen_quirky_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
+	<div class="entry-summary">
+		<?php the_excerpt(); ?>
+	</div><!-- .entry-summary -->
 </article><!-- #post-<?php the_ID(); ?> -->
