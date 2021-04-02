@@ -17,7 +17,6 @@
 		<div class="entry-meta">
 			<?php
 			nineteen_quirky_posted_on();
-			nineteen_quirky_posted_by();
 			?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
