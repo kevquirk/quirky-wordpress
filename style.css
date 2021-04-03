@@ -683,12 +683,12 @@ h1.site-title {
 h2.entry-title {
   margin: 0;
   text-align: center;
-  background: var(--header);
 }
 
 h2.entry-title a {
   font-size: 1.8rem;
   padding: 1rem;
+  background: var(--header);
   color: var(--header-text);
   text-decoration: none;
 }
