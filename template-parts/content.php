@@ -16,8 +16,16 @@
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif; ?>
+		endif;
 
+		if ( !is_home() or !is_front_page() or !is_category() ) : ?>
+			<div class="entry-meta">
+				📅
+				<?php
+				nineteen_quirky_posted_on();
+				?>
+			</div><!-- .entry-meta -->
+		<?php endif; ?>
 	</header><!-- .entry-header -->
 
 	<?php nineteen_quirky_post_thumbnail(); ?>
@@ -50,4 +58,8 @@
 		);
 		?>
 	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		🏷️ <?php nineteen_quirky_entry_footer(); ?>
+	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
