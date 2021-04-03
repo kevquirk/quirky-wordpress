@@ -16,8 +16,9 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<!-- Load font -->
+	<!-- Load fonts -->
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/fonts/londrina/londrina.css' ); ?>">
+	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/fonts/pt-sans/pt-sans.css' ); ?>">
 	<!-- Prism syntax highlighting -->
 	<script src="<?php echo esc_url( get_template_directory_uri() . '/js/prism.js' ); ?>"></script>
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/prism.css' ); ?>">
