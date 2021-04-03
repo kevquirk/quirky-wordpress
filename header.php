@@ -36,7 +36,7 @@
 			<nav id="site-navigation" class="main-navigation">
 				<div class="nav">
 					<!-- THE HAMBURGER -->
-		      <label for="hamburger"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/hamburger.svg' ); ?>" /></label>
+		      <label for="hamburger"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/hamburger.svg' ); ?>" /> Menu</label>
 		      <input type="checkbox" id="hamburger"/>
 
 					<!-- MENU ITEMS -->
