@@ -1,17 +1,18 @@
 @font-face {
-    font-family: 'cartoonist';
+    font-family: 'londrina';
     src: url('bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
-    font-family: 'cartoonist';
+    font-family: 'londrina';
     src: url('bold-italic.woff') format('woff');
     font-weight: 700;
     font-style: italic;
     font-display: swap;
 }
+/*
 @font-face {
     font-family: 'cartoonist';
     src: url('regular.woff') format('woff');
@@ -26,4 +27,4 @@
     font-style: italic;
     font-display: swap;
 }
-
+*/
