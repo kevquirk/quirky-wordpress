@@ -18,7 +18,8 @@
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
-		if ( !is_home() or !is_front_page() or !is_category() ) : ?>
+		if ( is_single() 'post' === get_post_type() ) :
+			?>
 			<div class="entry-meta">
 				📅
 				<?php
@@ -58,8 +59,9 @@
 		);
 		?>
 	</div><!-- .entry-content -->
-
+	<?php if ( is_single() ); ?>
 	<footer class="entry-footer">
 		🏷️ <?php nineteen_quirky_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
+<?php endif ?>
 </article><!-- #post-<?php the_ID(); ?> -->
