@@ -680,12 +680,15 @@ h1.site-title {
     line-height: 1.2;
 }
 
-h2.entry-title a {
-  font-size: 1.8rem;
+h2.entry-title {
   margin: 0;
   text-align: center;
-  padding: 1rem;
   background: var(--header);
+}
+
+h2.entry-title a {
+  font-size: 1.8rem;
+  padding: 1rem;
   color: var(--header-text);
   text-decoration: none;
 }
