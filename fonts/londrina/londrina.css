@@ -1,4 +1,18 @@
+@font-face {
+    font-family: 'londrina';
+    src: url('regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
 /*
+@font-face {
+    font-family: 'londrina';
+    src: url('italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
 @font-face {
     font-family: 'londrina';
     src: url('bold.woff') format('woff');
@@ -14,18 +28,3 @@
     font-display: swap;
 }
 */
-@font-face {
-    font-family: 'londrina';
-    src: url('regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'londrina';
-    src: url('italic.woff') format('woff');
-    font-weight: 400;
-    font-style: italic;
-    font-display: swap;
-}
-
