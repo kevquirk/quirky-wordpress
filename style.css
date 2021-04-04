@@ -1646,11 +1646,12 @@ p.has-background {
 .notice-blue a {
   color: var(--dark-blue);
   text-decoration: underline;
+  text-decoration-thickness: .15rem;
 }
 
 .notice a:hover,
 .notice-blue a:hover {
-  text-decoration: none;
+  text-decoration: dotted;
 }
 
 .notice-red {
@@ -1663,10 +1664,11 @@ p.has-background {
 .notice-red a {
   color: var(--dark-red);
   text-decoration: underline;
+  text-decoration-thickness: .15rem;
 }
 
 .notice-red a:hover {
-  text-decoration: none;
+  text-decoration: dotted;
 }
 
 /* Format notices in dark mode */
