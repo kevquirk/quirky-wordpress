@@ -128,13 +128,14 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
       --accent: #FFB300;
       --accent-light: #000;
       --bg: #212121;
+      --pre-bg: #000;
       --text: #DCDCDC;
-      --border: #1a1a1a;
+      --border: #000;
       --meta: #ABABAB;
       --code: #F06292;
       --input-bg: #333;
       --wysiwyg: #9A9A9A;
-      --header: #1a1a1a;
+      --header: #000;
     }
 
     .wp-block-image img {
@@ -221,9 +222,9 @@ hr {
  }
 
  pre code {
-   font-size: 1.25rem;
+   font-size: 1.1rem;
    font-family: var(--mono-font);
-   color: #ccc;
+   color: #fafafa;
  }
 
 .select-all {
