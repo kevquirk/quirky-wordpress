@@ -805,7 +805,7 @@ code,
 kbd,
 tt,
 var {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-family: var(--mono-font);
   color: var(--code);
 }
