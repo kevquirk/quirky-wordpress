@@ -1540,8 +1540,7 @@ footer h2 {
 }
 
 .footer-drips {
-  margin: -.5rem;
-  overflow: hidden;
+  margin-top: -.5rem;
 }
 
 /*--------------------------------------------------------------
