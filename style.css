@@ -1219,6 +1219,7 @@ nav a:hover,
     right: 1rem;
     font-size: 1.25rem;
     padding: .5rem;
+    z-index: 1;
   }
 
   #site-navigation input:checked ~ #navitems a {
