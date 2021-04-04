@@ -547,6 +547,11 @@ input {
   }
 }
 
+p.disappointed {
+  font-size: 1.1rem;
+  margin-top: -.25rem;
+}
+
 /* Format the blogroll banners */
 .blogroll-banner {
   background: var(--accent-bg);
