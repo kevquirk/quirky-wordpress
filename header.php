@@ -26,7 +26,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body href="#top" <?php body_class(); ?>>
+<body id="top" <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
 <header id="masthead">
