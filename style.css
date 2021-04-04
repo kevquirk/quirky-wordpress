@@ -1651,7 +1651,7 @@ p.has-background {
 
 .notice a:hover,
 .notice-blue a:hover {
-  text-decoration: dotted;
+  text-decoration-style: dotted;
 }
 
 .notice-red {
@@ -1668,7 +1668,7 @@ p.has-background {
 }
 
 .notice-red a:hover {
-  text-decoration: dotted;
+  text-decoration-style: dotted;
 }
 
 /* Format notices in dark mode */
