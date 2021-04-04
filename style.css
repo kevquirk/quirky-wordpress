@@ -1314,7 +1314,7 @@ h1.site-logo a:hover {
 }
 
 .entry-footer a:hover {
-  color: var(--accent);
+  text-decoration-style: dotted;
 }
 
 .entry-date.published {
