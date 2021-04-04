@@ -556,10 +556,16 @@ input {
 }
 
 .blogroll-banner-fav {
-  background: var(--accent-bg);
+  background: #FFF9C4;
   border: 3px solid #FFB300;
   margin: 2rem 0;
   padding: .5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .blogroll-banner-fav {
+    background: #FFB300;
+  }
 }
 
 .blogroll-banner h2,
