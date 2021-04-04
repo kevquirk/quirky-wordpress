@@ -225,6 +225,8 @@ hr {
    font-size: 1.1rem;
    font-family: var(--mono-font);
    color: #fafafa;
+   white-space: pre !important;
+   overflow-x: auto;
  }
 
 .select-all {
