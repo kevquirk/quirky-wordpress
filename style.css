@@ -1314,6 +1314,8 @@ h1.site-logo a:hover {
 }
 
 .entry-footer a:hover {
+  text-decoration: underline;
+  text-decoration-thickness; .15rem;
   text-decoration-style: dotted;
 }
 
