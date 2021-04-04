@@ -115,6 +115,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
    color: var(--header-text);
  }
 
+ .drip {
+   margin-top: -6rem;
+ }
+
  .site-main {
    max-width: 40rem;
  	 padding: 0 .5rem;
