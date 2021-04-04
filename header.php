@@ -54,7 +54,7 @@
 </div>
 
 <!-- ADD THE DRIPS! -->
-<svg class="drips" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4687 447"><path fill="#212121" fill-opacity="1" d="M 0.00,0.00
+<svg class="drips" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4687 447"><path fill="var(--header)" fill-opacity="1" d="M 0.00,0.00
 	 C 0.00,0.00 4687.00,0.00 4687.00,0.00
 		 4687.00,0.00 4687.00,102.30 4687.00,102.30
 		 4687.00,102.30 4598.75,102.30 4598.75,102.30
