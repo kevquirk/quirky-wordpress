@@ -1484,6 +1484,10 @@ footer .search-submit:hover {
   border-color: #FAFAFA;
 }
 
+footer h4 {
+  font-size: 1.44rem;
+}
+
 .widget-area {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

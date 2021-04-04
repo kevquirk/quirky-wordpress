@@ -242,8 +242,8 @@ function register_widget_areas() {
     'description'   => 'This widget area discription',
     'before_widget' => '<section class="footer-area footer-area-one">',
     'after_widget'  => '</section>',
-    'before_title'  => '<h4>',
-    'after_title'   => '</h4>',
+    'before_title'  => '<h2>',
+    'after_title'   => '</h2>',
   ));
 
   register_sidebar( array(
@@ -252,8 +252,8 @@ function register_widget_areas() {
     'description'   => 'This widget area discription',
     'before_widget' => '<section class="footer-area footer-area-two">',
     'after_widget'  => '</section>',
-    'before_title'  => '<h4>',
-    'after_title'   => '</h4>',
+    'before_title'  => '<h2>',
+    'after_title'   => '</h2>',
   ));
 
 	register_sidebar( array(
@@ -262,8 +262,8 @@ function register_widget_areas() {
     'description'   => 'This widget area discription',
     'before_widget' => '<section class="footer-area footer-area-two">',
     'after_widget'  => '</section>',
-    'before_title'  => '<h4>',
-    'after_title'   => '</h4>',
+    'before_title'  => '<h2>',
+    'after_title'   => '</h2>',
   ));
 
 }
