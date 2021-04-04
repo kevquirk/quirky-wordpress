@@ -12,7 +12,7 @@
 ?>
 
 	<footer id="colophon" class="site-footer clear">
-		<svg class="footer-drips" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4687 279"><path fill="var(--header-text)" fill-opacity="1" d="M 0.00,0.00
+		<svg class="footer-drips" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4687 279"><path fill="var(--bg)" fill-opacity="1" d="M 0.00,0.00
 		   C 0.00,0.00 4687.00,0.00 4687.00,0.00
 		     4687.00,0.00 4687.00,102.28 4687.00,102.28
 		     4687.00,102.28 4598.75,102.28 4598.75,102.28
