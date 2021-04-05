@@ -36,6 +36,7 @@ get_header();
 				<input type="hidden" name="subform" value="yes"/>
 				<input type="submit" name="submit" value="Subscribe!" id="submit"/>
 			  </form>
+				<p class="disappointed">Join hundreds of disappointed people!</p>
 			</div>
 
 			<?php
