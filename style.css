@@ -135,6 +135,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
       --input-bg: #333;
       --wysiwyg: #9A9A9A;
       --header: #000;
+      --header-text: #DCDCDC;
     }
 
     .wp-block-image img {
