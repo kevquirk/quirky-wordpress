@@ -10,7 +10,6 @@
  */
 
 ?>
-	<svg class="footer-border" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 55.25"><defs><style>.cls-2{fill:var(--header);}</style></defs><title>triangle-uneven-bottom</title><g id="Layer_3" data-name="Layer 3"><polygon class="cls-2" points="0 0 124.49 36.23 500 0 500 55.24 0 55.24 0 0"/></g></svg>
 	<footer id="colophon" class="site-footer clear">
 		<div class="widget-area">
 			<div class="footer-left">
