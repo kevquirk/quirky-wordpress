@@ -1852,6 +1852,23 @@ input.search-field
   -webkit-appearance: none;
 }
 
+.wp-block-search__button {
+  background: var(--text) !important;
+  color: var(--bg) !important;
+  white-space: nowrap;
+  border: 3px solid var(--text) !important;
+  padding: .8rem !important;
+}
+
+.wp-block-search__button:hover {
+  background: none !important;
+  color: var(--text) !important;
+}
+
+.wp-block-search .wp-block-search__input {
+  border: 3px solid var(--text);
+}
+
 label,
 input,
 textarea {
