@@ -28,7 +28,7 @@ Tags:
 }
 @font-face {
     font-family: 'pt-sans';
-    src: url('fonts/pt-sans/bold.woff') format('woff');
+    src: u  rl('fonts/pt-sans/bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: block;
@@ -185,7 +185,7 @@ h6.rich-text.block-editor-rich-text__editable {
 
 .medium,
 .has-medium-font-size {
-  font-size: 1.5rem !important;
+  font-size: 1.75rem !important;
   line-height: 1.3 !important;
 }
 
