@@ -1458,12 +1458,15 @@ h1.site-logo a:hover {
     color: var(--header-text);
     padding: 0 0 1rem 0;
     text-align: center;
-    margin-top: 3rem;
     font-size: 1rem;
 }
 
 .site-footer a {
   color: var(--header-text);
+}
+
+.footer-border {
+  margin-bottom: -1rem;
 }
 
 footer .search-form {
