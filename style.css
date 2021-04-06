@@ -1467,6 +1467,7 @@ h1.site-logo a:hover {
     background: var(--header);
     color: var(--header-text);
     padding: 0 0 1rem 0;
+    margin-top: 4rem;
     text-align: center;
     font-size: 1rem;
 }
