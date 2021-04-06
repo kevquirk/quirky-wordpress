@@ -1213,6 +1213,12 @@ nav a:hover,
     padding-top: 0;
   }
 
+  nav a,
+  nav a:visited,
+  nav a:focus {
+    margin: 0;
+  }
+
   /* Break down menu items into vertical */
   #navitems a {
     color: var(--text);
@@ -1239,7 +1245,7 @@ nav a:hover,
   }
 
   #site-navigation input:checked ~ #navitems a {
-    padding: .25rem .5rem;
+    padding: 0 .5rem;
 }
 }
 
