@@ -1038,11 +1038,12 @@ button.outline:hover {
 	font-weight: bold;
 	line-height: 3rem;
 	white-space: nowrap;
+  border: 3px solid var(--text);
 }
 
 .button:hover, .button:active, .button:focus {
-	background: var(--text);
-	color: var(--bg);
+	background: none;
+	color: var(--text);
 }
 
 a.button {

@@ -13,7 +13,7 @@ Tags:
 
 /* Global colour variables */
  :root {
-     --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+     --sans-font: "pt-sans", -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
      --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
     --accent: #0D47A1;
     --accent-light: #E3F2FD;
@@ -40,23 +40,26 @@ Tags:
 
  /* Global Width */
  .wp-block {
-   max-width: 720px
+   max-width: 624px
  }
 
 /* Main typography elements */
 
 /* Set fonts */
-
-.editor-block-list__layout .editor-block-list__block,
-.editor-post-title__block .editor-post-title__input,
 h1.rich-text.block-editor-rich-text__editable,
 h2.rich-text.block-editor-rich-text__editable,
 h3.rich-text.block-editor-rich-text__editable,
 h4.rich-text.block-editor-rich-text__editable,
 h5.rich-text.block-editor-rich-text__editable,
 h6.rich-text.block-editor-rich-text__editable,
+#post-title-0 {
+  font-family: "londrina", var(--sans-font);
+  color: var(--text);
+}
+
+.editor-block-list__layout .editor-block-list__block,
+.editor-post-title__block .editor-post-title__input,
 .has-medium-font-size,
-#post-title-0,
 table,
 .editor-block-list__layout .editor-block-list__block p,
 .rich-text.block-editor-rich-text__editable.wp-block-paragraph,
@@ -69,18 +72,6 @@ figcaption,
   font-family: var(--sans-font);
 }
 
-.editor-block-list__layout .editor-block-list__block,
-.editor-post-title__block .editor-post-title__input,
-h1.rich-text.block-edtor-rich-text__editable,
-h2.rich-text.block-editor-rich-text__editable,
-h3.rich-text.block-editor-rich-text__editable,
-h4.rich-text.block-editor-rich-text__editable,
-h5.rich-text.block-editor-rich-text__editable,
-h6.rich-text.block-editor-rich-text__editable,
-#post-title-0 {
-  font-weight: bold;
-}
-
 .editor-block-list__layout .editor-block-list__block p,
 .rich-text.block-editor-rich-text__editable.wp-block-paragraph,
 .block-editor-block-list__layout.is-root-container {
@@ -90,8 +81,7 @@ h6.rich-text.block-editor-rich-text__editable,
 
 pre {
   font-family: var(--mono-font);
-  background: black !important;
- 	border-radius: 5px;
+  background: #212121 !important;
  	margin-bottom: 1.6em;
  	max-width: 100%;
  	overflow: auto;
@@ -100,8 +90,11 @@ pre {
 }
 
 pre code {
-  font-size: 1.25rem;
-  color: #ccc;
+  font-size: 1.1rem;
+  font-family: var(--mono-font);
+  color: #fafafa;
+  white-space: pre !important;
+  overflow-x: auto;
 }
 
 code, kbd, tt, var {
@@ -120,8 +113,7 @@ strong {
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  border-radius: 5px;
-  border: 2px solid var(--border);
+  border: 3px solid var(--border);
 }
 
 .wp-block-image figcaption,
@@ -136,7 +128,7 @@ figcaption {
 .attachment-post-thumbnail {
     width: 100%;
     margin: 1em 0 1.5em 0;
-    border: 2px solid var(--border);
+    border: 3px solid var(--border);
 }
 
 /*--------------------------------------------------------------
@@ -171,7 +163,6 @@ h6.rich-text.block-editor-rich-text__editable {
 
 .medium,
 .has-medium-font-size {
-  font-weight: bold;
   font-size: 1.5rem !important;
   line-height: 1.3 !important;
 }
@@ -181,12 +172,11 @@ em {
 }
 
 .wp-block-quote {
-  margin: 2rem auto;
+  margin: 2rem 0 2rem 1rem;
 	padding: .4rem .8rem;
-	border-left: .35rem solid var(--accent);
+	border-left: 3px solid var(--text);
 	color: var(--meta);
 	font-style: italic;
-  display: block;
 }
 
 dfn, cite, i {
@@ -243,8 +233,6 @@ p.feature-credit a,
 p.feature-credit a:visited {
   color: var(--accent);
   text-decoration-thickness: .15rem;
-  text-decoration-color: var(--underline);
-  transition: .4s;
 }
 
 a:hover,
@@ -257,7 +245,7 @@ p.feature-credit a:hover,
 p.feature-credit a:active,
 .menu-items a:hover,
 .menu-items a:active {
-	text-decoration-color: var(--accent);
+	text-decoration-style: dotted;
 }
 
 a:focus {
@@ -270,20 +258,20 @@ a:hover, a:active {
 
 .button,
 .rich-text.block-editor-rich-text__editable.wp-block-button__link {
-  font-size: 1.1rem;
-	border-radius: 4px;
-	background: var(--accent);
+  padding: .8em .8em;
+	margin: 0 .5em 0 0;
+	background: var(--text);
 	color: var(--bg);
-	padding: 0.75rem 1rem;
-  text-decoration: none;
-  border: none !important;
-  transition: .4s;
+	font-weight: bold;
+	line-height: 3rem;
+	white-space: nowrap;
+  border: 3px solid var(--text);
 }
 
 .button:hover,
 .rich-text.block-editor-rich-text__editable.wp-block-button__link:hover {
-  background: var(--text);
-  color: var(--bg);
+  background: none;
+  color: var(--text);
 }
 
 a.button {
@@ -294,8 +282,7 @@ a.button {
 
 .notice,
 .notice-blue {
-  border-radius: 5px;
-  border: 2px solid var(--dark-blue);
+  border: 3px solid var(--dark-blue);
   background: var(--light-blue);
   color: var(--dark-blue);
   padding: 1rem 2rem;
@@ -313,8 +300,7 @@ a.button {
 }
 
 .notice-red {
-  border-radius: 5px;
-  border: 2px solid var(--dark-red);
+  border: 3px solid var(--dark-red);
   background: var(--light-red);
   color: var(--dark-red);
   padding: 1rem 2rem;
@@ -337,161 +323,11 @@ a.button {
   text-align: center;
   font-weight: bold;
   padding: 1rem .5rem;
-  border: 2px solid var(--text);
+  border: 3px solid var(--text);
   border-radius: 5px;
 }
 
 .hundred-days-number {
   font-size: 1.4rem;
   color: var(--code);
-}
-
-/** Custom colours for Gutenberg editor **/
-
-.has-background {
-  display: block !important;
-  margin: 0 auto !important;
-}
-
-p.has-background {
-  border-radius: 4px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 2em 0;
-  display: block;
-  margin: 0 auto;
-}
-
-/** Blue colours **/
-.has-blue-background-color {
-	background-color: var(--accent) !important;
-}
-.has-blue-color {
-	color: var(--accent);
-}
-.has-blue-color a {
-	color: var(--accent);
-	border-bottom: 2px solid var(--accent) !important;
-  background: none;
-  border-radius: 0;
-}
-.has-blue-color a:hover {
-	color: var(--accent);
-	border-bottom: 2px dotted var(--accent) !important;
-}
-.has-blue-color code {
-	color: var(--accent);
-	background: var(--bg);
-}
-
-/** Green colours **/
-.has-green-background-color {
-	background-color: var(--green) !important;
-}
-.has-green-color {
-	color: var(--green);
-}
-.has-green-color a {
-	color: var(--green);
-	border-bottom: 2px solid var(--green) !important;
-  background: none;
-  border-radius: 0;
-}
-.has-green-color a:hover {
-	color: var(--green);
-	border-bottom: 2px dotted var(--green) !important;
-}
-.has-green-color code {
-	color: var(--green);
-	background: var(--bg);
-}
-
-/** Orange colours **/
-.has-orange-background-color {
-	background-color: var(--orange) !important;
-	color: var(--main) !important;
-}
-.has-orange-color {
-	color: var(--orange);
-}
-.has-orange-color a {
-	color: var(--orange);
-	border-bottom: 2px solid var(--orange) !important;
-  background: none;
-  border-radius: 0;
-}
-.has-orange-color a:hover {
-	color: var(--orange);
-	border-bottom: 2px dotted var(--orange) !important;
-}
-.has-orange-color code {
-	color: var(--orange);
-	background: var(--main);
-}
-
-/** Red colours **/
-.has-red-background-color {
-	background-color: var(--red) !important;
-}
-.has-red-color {
-	color: var(--red);
-}
-.has-red-color a {
-	color: var(--red);
-	border-bottom: 2px solid var(--green) !important;
-  background: none;
-  border-radius: 0;
-}
-.has-red-color a:hover {
-	color: var(--red);
-	border-bottom: 2px dotted var(--green) !important;
-}
-.has-red-color code {
-	color: var(--red);
-	background: var(--bg);
-}
-
-/** Grey colours **/
-.has-grey-background-color {
-	background-color: var(--main) !important;
-	border: 1px solid;
-}
-.has-grey-color {
-	color: var(--main) !important;
-}
-.has-grey-color a, .has-grey-color a:visited {
-	color: var(--main);
-	border-bottom: 2px solid var(--main) !important;
-  background: none;
-  border-radius: 0;
-}
-.has-grey-color a:hover {
-	color: var(--main);
-	border-bottom: 2px solid var(--main) !important;
-}
-.has-grey-color code {
-	color: var(--main);
-	background: var(--bg);
-}
-
-/** White colours **/
-.has-white-background-color {
-	background-color: var(--bg) !important;
-	border: 1px solid --var(main);
-}
-.has-white-color {
-	color: var(--bg);
-}
-.has-white-color a, .has-white-color a:visited {
-	color: var(--bg);
-	border-bottom: 2px solid var(--bg) !important;
-  background: none;
-  border-radius: 0;
-}
-.has-white-color a:hover {
-	color: var(--bg);
-	border-bottom: 2px dotted var(--bg) !important;
-}
-.has-white-color code {
-	color: var(--main);
-	background: var(--lighter);
 }
