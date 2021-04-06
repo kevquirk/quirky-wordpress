@@ -11,32 +11,53 @@ Text Domain: susty
 Tags:
 */
 
+/* Custom fonts */
+@font-face {
+    font-family: 'londrina';
+    src: url('/fonts/lordina/regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'pt-sans';
+    src: url('/fonts/pt-sans/regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'pt-sans';
+    src: url('/fonts/pt-sans/bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: block;
+}
+
 /* Global colour variables */
  :root {
-     --sans-font: "pt-sans", -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
-     --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-    --accent: #0D47A1;
-    --accent-light: #E3F2FD;
-    --bg: #FAFAFA;
-    --accent-bg: #E9E9E9;
-    --text: #212121;
-    --underline: #90CAF9;
-    --meta: #585858;
-    --border: lightgrey;
-    --code: #D81B60;
-    --pre: #D0D0D0;
-    --input-bg: white;
-    --wysiwyg: #D9D9D9;
-    --admin-reply: #D9D9D9;
-    --header: #212121;
-    --header-text: #fafafa;
+   --sans-font: "pt-sans", -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  --accent: #0D47A1;
+  --bg: #FAFAFA;
+  --accent-bg: rgba(0, 0, 0, .075);
+  --text: #212121;
+  --meta: #585858;
+  --border: #212121;
+  --code: #D81B60;
+  --pre: #D0D0D0;
+  --pre-bg: #1A1A1A;
+  --input-bg: white;
+  --wysiwyg: #eaeeff;
+  --header: #212121;
+  --header-text: #fafafa;
 
-    /* Notice colours */
-    --dark-blue: #0D47A1;
-    --light-blue: #E3F2FD;
-    --dark-red: #B71C1C;
-    --light-red: #FFEBEE;
- }
+  /* Notice colours */
+  --dark-blue: #0D47A1;
+  --light-blue: #E3F2FD;
+  --dark-red: #B71C1C;
+  --light-red: #FFEBEE;
+}
 
  /* Global Width */
  .wp-block {
