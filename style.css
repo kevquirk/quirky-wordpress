@@ -103,7 +103,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
    background: var(--header);
    color: var(--header-text);
    height: 4rem;
-   margin-bottom: 6rem;
  }
 
  #masthead h1 {
@@ -1470,10 +1469,6 @@ h1.site-logo a:hover {
 
 .site-footer a {
   color: var(--header-text);
-}
-
-.footer-border {
-  margin-bottom: -1rem;
 }
 
 footer .search-form {
