@@ -14,21 +14,21 @@ Tags:
 /* Custom fonts */
 @font-face {
     font-family: 'londrina';
-    src: url('/fonts/lordina/regular.woff') format('woff');
+    src: url('fonts/lordina/regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: block;
 }
 @font-face {
     font-family: 'pt-sans';
-    src: url('/fonts/pt-sans/regular.woff') format('woff');
+    src: url('fonts/pt-sans/regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: block;
 }
 @font-face {
     font-family: 'pt-sans';
-    src: url('/fonts/pt-sans/bold.woff') format('woff');
+    src: url('fonts/pt-sans/bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: block;
