@@ -1270,10 +1270,12 @@ h1.site-logo {
 .site-logo a {
   color: var(--text);
   text-decoration: none;
+  padding: 0 .5rem;
 }
 
 h1.site-logo a:hover {
-  opacity: .8;
+  background: var(--header-text);
+  color: var(--header) !important;
 }
 
 .site-avatar {
