@@ -76,6 +76,7 @@ h6.rich-text.block-editor-rich-text__editable,
 #post-title-0 {
   font-family: "londrina", var(--sans-font);
   color: var(--text);
+  font-weight: 400;
 }
 
 .editor-block-list__layout .editor-block-list__block,
