@@ -1469,6 +1469,11 @@ h1.site-logo a:hover {
   margin-bottom: -1rem;
 }
 
+.header-border,
+.footer-border {
+  padding: 0 !important;
+}
+
 footer .search-form {
   width: 50%;
   margin: 0 auto;
