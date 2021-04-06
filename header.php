@@ -53,7 +53,7 @@
 			</nav><!-- #site-navigation -->
 </div>
 
-<svg class="header-border" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 55.25"><defs><style>.cls-1{fill:var(--header);}</style></defs><title>triangle-uneven-top</title><g id="Layer_3" data-name="Layer 3"><polygon class="cls-1" points="500 55.24 375.51 19.02 0 55.24 0 0 500 0 500 55.24"/></g></svg>
+<svg class="header-border" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 55.25"><defs><style>.cls-1{fill:var(--header);stroke:var(--header);}</style></defs><title>triangle-uneven-top</title><g id="Layer_3" data-name="Layer 3"><polygon class="cls-1" points="500 55.24 375.51 19.02 0 55.24 0 0 500 0 500 55.24"/></g></svg>
 </header><!-- #masthead -->
 
 <div id="page" class="site">
