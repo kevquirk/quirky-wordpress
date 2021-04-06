@@ -701,13 +701,21 @@ h2.entry-title a {
   display: inline-block;
   }
 
-h2.entry-title a:hover {
+h2.entry-title a:hover:nth-child(odd) {
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
     -o-transform: rotate(5deg);
     -ms-transform: rotate(5deg);
     transform: rotate(5deg);
   }
+
+  h2.entry-title a:hover:nth-child(even) {
+      -webkit-transform: rotate(-5deg);
+      -moz-transform: rotate(-5deg);
+      -o-transform: rotate(-5deg);
+      -ms-transform: rotate(-5deg);
+      transform: rotate(-5deg);
+    }
 
 h1.entry-title {
   line-height: 1.2;
