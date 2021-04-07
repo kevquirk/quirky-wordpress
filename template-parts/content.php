@@ -18,7 +18,6 @@
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
-		if ( is_single() ) :
 			?>
 			<div class="entry-meta">
 				📅
@@ -26,7 +25,6 @@
 				nineteen_quirky_posted_on();
 				?>
 			</div><!-- .entry-meta -->
-		<?php endif; ?>
 	</header><!-- .entry-header -->
 
 	<?php nineteen_quirky_post_thumbnail(); ?>
