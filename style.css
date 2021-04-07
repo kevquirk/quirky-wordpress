@@ -690,7 +690,6 @@ h1.site-title {
 
 h2.entry-title {
   text-align: center;
-  margin: 0 0 3rem 0;
 }
 
 h2.entry-title a {
@@ -720,6 +719,11 @@ h2.entry-title a:hover:nth-child(odd) {
 
 h1.entry-title {
   line-height: 1.2;
+}
+
+.blog .entry-meta {
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .guestbook-notice h2 {
