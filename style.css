@@ -723,7 +723,7 @@ h1.entry-title {
 
 .blog .entry-meta {
   text-align: center;
-  margin-bottom: 3rem;
+  margin: -1rem 0 3rem 0;
 }
 
 .guestbook-notice h2 {
