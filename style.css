@@ -67,6 +67,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     --code: #D81B60;
     --pre: #D0D0D0;
     --pre-bg: #1A1A1A;
+    --pre-text: #FAFAFA;
     --input-bg: white;
     --wysiwyg: #eaeeff;
     --header: #212121;
@@ -128,6 +129,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
       --accent-light: #000;
       --bg: #212121;
       --pre-bg: #000;
+      --pre-text: #DCDCDC;
       --text: #DCDCDC;
       --border: #000;
       --meta: #ABABAB;
@@ -224,7 +226,7 @@ hr {
  pre code {
    font-size: 1.1rem;
    font-family: var(--mono-font);
-   color: #fafafa;
+   color: var(--pre-text);
    white-space: pre !important;
    overflow-x: auto;
  }
