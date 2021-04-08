@@ -723,7 +723,9 @@ h1.entry-title {
   line-height: 1.2;
 }
 
-.blog .entry-meta {
+.blog .entry-meta,
+.blog .entry-meta,
+.archive .entry-meta {
   text-align: center;
   margin: -1rem 0 3rem 0;
 }
