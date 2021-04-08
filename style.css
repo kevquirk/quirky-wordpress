@@ -724,7 +724,7 @@ h1.entry-title {
 }
 
 .blog .entry-meta,
-.blog .entry-meta,
+.search .entry-meta,
 .archive .entry-meta {
   text-align: center;
   margin: -1rem 0 3rem 0;
