@@ -18,7 +18,6 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<!-- Load fonts -->
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/fonts/londrina/londrina.css' ); ?>">
-	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/fonts/pt-sans/pt-sans.css' ); ?>">
 	<!-- Plausible analytics -->
 	<script async defer data-domain="kevq.uk" src="https://stats.kevq.uk/js/index.js"></script>
 	<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
