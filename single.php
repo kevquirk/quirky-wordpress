@@ -21,7 +21,7 @@ get_header();
 
 			<!-- Add newsletter to the bottom of all posts. -->
 			<div class="subscribe-form">
-				<h2>📰 Cool people get newsletters!</h2>
+				<h2>Cool people get newsletters!</h2>
 
 				<p class="has-medium-font-size">Have a poorly written technology, privacy and web-centric newsletter delivered straight to your inbox every month!</p>
 

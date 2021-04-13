@@ -19,24 +19,10 @@ Tags:
     font-style: normal;
     font-display: block;
 }
-@font-face {
-    font-family: 'pt-sans';
-    src: url('fonts/pt-sans/regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: block;
-}
-@font-face {
-    font-family: 'pt-sans';
-    src: u  rl('fonts/pt-sans/bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-    font-display: block;
-}
 
 /* Global colour variables */
  :root {
-   --sans-font: "pt-sans", -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+   --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
    --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   --accent: #0D47A1;
   --bg: #FAFAFA;
