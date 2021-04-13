@@ -12,3 +12,17 @@
     font-style: normal;
     font-display: block;
 }
+@font-face {
+    font-family: 'pt-sans';
+    src: url('italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: block;
+}
+@font-face {
+    font-family: 'pt-sans';
+    src: url('bold-italic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: block;
+}
