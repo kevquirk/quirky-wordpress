@@ -29,7 +29,7 @@ get_header();
 
 				<p class="small"><a target="blank" href="https://metaletter.net">More info</a></p>
 
-			  <form action="https://newsletter.kevq.uk/subscribe" method="POST" accept-charset="utf-8">
+			  <form action="https://sendy.metaletter.net/subscribe" method="POST" accept-charset="utf-8">
 				<label for="email" class="visuallyhidden">Email</label>
 				<input type="email" placeholder="jane@example.com" name="email" id="email"/>
 				<input type="hidden" name="list" value="IHoM4A4bdjmF8zo9CNJIvQ"/>
