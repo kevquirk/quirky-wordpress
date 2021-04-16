@@ -104,15 +104,15 @@ figcaption,
 pre {
   font-family: var(--mono-font);
   background: #212121 !important;
- 	margin-bottom: 1.6em;
+ 	margin-bottom: 1.5rem;
  	max-width: 100%;
  	overflow: auto;
- 	padding: 1.6em;
+ 	padding: 1.5rem;
  	max-height: 650px;
 }
 
 pre code {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: var(--mono-font);
   color: #fafafa;
   white-space: pre !important;
