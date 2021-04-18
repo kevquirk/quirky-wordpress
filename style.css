@@ -56,7 +56,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 /* Global colour variables */
  :root {
-     --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+     --sans-font: "pt-sans", -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
      --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
     --accent: #0D47A1;
     --bg: #FAFAFA;
@@ -216,15 +216,15 @@ hr {
  pre {
  	font-family: var(--mono-font);
   background: var(--pre-bg) !important;
- 	margin-bottom: 1.6em;
+ 	margin-bottom: 1.5rem;
  	max-width: 100%;
  	overflow: auto;
- 	padding: 1.6em;
+ 	padding: 1.5rem;
  	max-height: 650px;
  }
 
  pre code {
-   font-size: 1.1rem;
+   font-size: 1rem;
    font-family: var(--mono-font);
    color: var(--pre-text);
    white-space: pre !important;
