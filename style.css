@@ -1208,6 +1208,7 @@ nav a:hover,
   display: none;
   line-height: 1.8;
   font-weight: normal;
+  cursor: pointer;
 }
 
 /* [ON SMALL SCREENS] */
