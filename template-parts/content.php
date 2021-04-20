@@ -21,13 +21,13 @@
 			$mycontent = $post->post_content; // wordpress users only
 			$word = str_word_count(strip_tags($mycontent));
 			$m = floor($word / 200);
-			$est = $m . ' minute' . ($m == 1 ? '' : 's');
+			$est = $m . ' min' . ($m == 1 ? '' : 's');
 		?>
 			<div class="entry-meta">
 				📅
 				<?php
 				nineteen_quirky_posted_on();
-				?>  Estimated reading time: <?php echo $est; ?>
+				?>  <span class="entry-date.published">⏱ <?php echo $est; ?></span>
 			</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
