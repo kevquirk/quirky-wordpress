@@ -1355,6 +1355,7 @@ h1.site-logo a:hover {
 .post-meta {
   color: var(--meta);
   font-size: .9rem;
+  padding-right: 2rem;
 }
 
 /* Comments
