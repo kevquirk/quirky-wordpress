@@ -269,3 +269,9 @@ function register_widget_areas() {
 }
 
 add_action( 'widgets_init', 'register_widget_areas' );
+
+// Work out reading time for posts
+$mycontent = $post->post_content; // wordpress users only
+$word = str_word_count(strip_tags($mycontent));
+$m = floor($word / 200);
+$est = $m . ' min' . ($m == 1 ? '' : 's') . ' to read';
