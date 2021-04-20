@@ -25,9 +25,9 @@
 		?>
 			<div class="entry-meta">
 				📅
-				<?php
+				<span class="post-meta"><?php
 				nineteen_quirky_posted_on();
-				?> ⏱ <span class="entry-date published"><?php echo $est; ?></span>
+				?></span> ⏱ <span class="post-meta"><?php echo $est; ?></span>
 			</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 

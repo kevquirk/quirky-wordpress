@@ -1352,7 +1352,7 @@ h1.site-logo a:hover {
   text-decoration-style: dotted;
 }
 
-.entry-date.published {
+.post-meta {
   color: var(--meta);
   font-size: .9rem;
 }
