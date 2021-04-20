@@ -27,7 +27,7 @@
 				📅
 				<?php
 				nineteen_quirky_posted_on();
-				?>  <span class="entry-date.published">⏱ <?php echo $est; ?></span>
+				?>  <span class="entry-date published">⏱ <?php echo $est; ?></span>
 			</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
