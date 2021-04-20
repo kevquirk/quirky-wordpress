@@ -24,10 +24,10 @@
 			$est = $m . ' min' . ($m == 1 ? '' : 's') . ' to read';
 		?>
 			<div class="entry-meta">
-				📅
-				<span class="post-meta"><?php
-				nineteen_quirky_posted_on();
-				?></span> ⏱ <span class="post-meta"><?php echo $est; ?></span>
+				<span class="post-meta">
+					📅 <?php nineteen_quirky_posted_on(); ?>
+					⏱ <?php echo $est; ?>
+				</span>
 			</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
