@@ -18,10 +18,6 @@
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
-			$mycontent = $post->post_content; // wordpress users only
-			$word = str_word_count(strip_tags($mycontent));
-			$m = floor($word / 200);
-			$est = $m . ' min' . ($m == 1 ? '' : 's') . ' to read';
 		?>
 			<div class="entry-meta">
 					<span class="post-meta">
