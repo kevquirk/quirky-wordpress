@@ -1354,7 +1354,7 @@ h1.site-logo a:hover {
 
 .post-meta {
   color: var(--meta);
-  font-size: .9rem;
+  font-size: 1rem;
 }
 
 .entry-date.published {
