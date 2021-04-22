@@ -730,10 +730,6 @@ h1.entry-title {
   margin: -1rem 0 3rem 0;
 }
 
-.guestbook-notice h2 {
-    margin-top: 0;
-}
-
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-weight: normal;
@@ -1783,75 +1779,6 @@ p.has-background {
 
 /* Hide title on home page */
 .page-id-3181 h1.entry-title {
-  display: none;
-}
-
-/* Guestbook formatting */
-.gb-entry {
-  font-size: 1.25rem;
-}
-
-i.gb-moderator {
-  font-style: normal;
-}
-
-.gwolle-gb .gb-entry {
-	border: 3px solid var(--text) !important;
-	margin-bottom: 1rem !important;
-	background: var(--accent-bg) !important;
-}
-
-.gwolle-gb-write {
-	background: var(--accent-bg) !important;
-	border: 3px solid var(--text) !important;
-	padding: 1rem;
-}
-
-.gwolle-gb .page-navigation a, .gwolle-gb .page-navigation span {
-	background: var(--accent-bg) !important;
-  color: var(--text) !important;
-}
-
-.gwolle-gb .page-navigation a:hover, .gwolle-gb .page-navigation span.current {
-	background: var(--text) !important;
-  color: var(--bg) !important;
-}
-
-.gwolle-gb .gb-entry .gb-author-info, .gwolle-gb .gb-entry .gb-entry-content {
-  padding: 0 .2rem;
-}
-
-.gwolle-gb .gb-entry .gb-author-info .gb-author-name {
-  padding-left: .2rem;
-}
-
-.gb-author-info {
-  margin-bottom: 1rem;
-}
-
-.gwolle-gb .gb-entry-admin_reply, .gwolle-gb .gb-entry-admin-reply {
-	border-left: .35rem solid var(--text) !important;
-	margin-right: .5rem !important;
-}
-
-.gwolle-gb h3 {
-	display: none;
-}
-
-.gwolle_gb_notice {
-  font-size: .9rem;
-  font-style: italic;
-}
-
-.gwolle-gb .markItUpHeader {
-  background: var(--wysiwyg) !important;
-}
-
-.gwolle_gb_submit.button.btn.btn-primary {
-  padding: .1rem .9rem;
-}
-
-.label.gwolle-gb-invisible.text-muted {
   display: none;
 }
 
