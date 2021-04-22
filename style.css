@@ -58,7 +58,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  :root {
      --sans-font: "pt-sans", -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
      --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-    --accent: #0D47A1;
     --bg: #FAFAFA;
     --accent-bg: rgba(0, 0, 0, .075);
     --text: #212121;
@@ -125,7 +124,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  /* Define colours for auto dark mode */
 @media (prefers-color-scheme: dark) {
     :root {
-      --accent: #FFB300;
       --accent-light: #000;
       --bg: #212121;
       --pre-bg: #000;
@@ -938,7 +936,7 @@ p.feature-credit a,
 p.feature-credit a:visited,
 .menu-items a,
 .response a {
-  color: var(--accent);
+  color: var(--text);
   text-decoration-thickness: .15rem;
 }
 
@@ -1605,7 +1603,7 @@ footer h2 {
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
 	clip: auto !important;
 	clip-path: none;
-	color: var(--accent);
+	color: var(--text);
 	display: block;
 	font-size: 0.875rem;
 	font-weight: 700;
@@ -1711,14 +1709,14 @@ p.has-background {
   .notice,
   .notice-blue {
     background: var(--bg);
-    color: var(--accent);
-    border-color: var(--accent);
+    color: var(--dark-blue);
+    border-color: var(--dark-blue);
   }
 
   .notice a,
   .notice-blue a {
-    color: var(--accent);
-    text-decoration-color: var(--accent);
+    color: var(--dark-blue);
+    text-decoration-color: var(--dark-blue);
   }
 
   .notice-red {
