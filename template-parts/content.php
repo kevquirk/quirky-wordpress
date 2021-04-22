@@ -18,6 +18,7 @@
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
+			// Code for calculating the time to read on posts.
 			$mycontent = $post->post_content; // wordpress users only
 			$word = str_word_count(strip_tags($mycontent));
 			$m = floor($word / 200);
