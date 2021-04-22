@@ -68,7 +68,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     --pre-bg: #1A1A1A;
     --pre-text: #FAFAFA;
     --input-bg: white;
-    --wysiwyg: #eaeeff;
     --header: #212121;
     --header-text: #fafafa;
 
@@ -124,7 +123,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  /* Define colours for auto dark mode */
 @media (prefers-color-scheme: dark) {
     :root {
-      --accent-light: #000;
       --bg: #212121;
       --pre-bg: #000;
       --pre-text: #DCDCDC;
@@ -133,7 +131,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
       --meta: #ABABAB;
       --code: #F06292;
       --input-bg: #333;
-      --wysiwyg: #9A9A9A;
       --header: #000;
       --header-text: #DCDCDC;
     }
